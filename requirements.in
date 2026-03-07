@@ -1,0 +1,6 @@
+numpy>=2.0,<3.0
+ocp-gordon
+build123d
+ocp_vscode # build123d watcher
+livereload
+#skidl

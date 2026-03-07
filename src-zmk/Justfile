@@ -1,0 +1,37 @@
+# Justfile
+
+set working-directory := "."
+
+# Default Vars
+board := "nice_nano_v2"
+shield_left := "my_shield_left"
+shield_right := "my_shield_right"
+zmk_dir := justfile_directory()
+
+default:
+    @just --list
+
+# Environment initialization (only the first time)
+init:
+    @echo "West workspace initialization..." # TODO: fare in modo che se lo si riesegue due volte lo dice? o lo fa gia da solo west?
+    west init {{zmk_dir}}
+    cd {{zmk_dir}} && west update && west zephyr-export
+    @echo "ZMK Environment ready!"
+
+# Compile left part (master)
+build-left:
+    @echo "Left part compilation (master)..."
+    cd {{zmk_dir}} && west build -s zmk/app -d build/left -b {{board}} -- -DSHIELD={{shield_left}} -DZMK_CONFIG="{{invocation_directory()}}/config" #-DEXTRA_CONF_FILE="{{invocation_directory()}}/config/my_shield.conf"
+
+# Compile right part (slave)
+build-right:
+    @echo "Right part compilation (slave)..."
+    cd {{zmk_dir}} && west build -s zmk/app -d build/right -b {{board}} -- -DSHIELD={{shield_right}} -DZMK_CONFIG="{{invocation_directory()}}/config" #-DEXTRA_CONF_FILE="{{invocation_directory()}}/config/my_shield.conf"
+
+clean:
+    @echo "Cleaning build dirs..."
+    rm -rf {{zmk_dir}}/build/
+
+cleanzmk:
+    rm -rf {{zmk_dir}}/.west/ {{zmk_dir}}/zmk/ {{zmk_dir}}/modules/ {{zmk_dir}}/optional/
+    find {{zmk_dir}}/zephyr/ -mindepth 1 -maxdepth 1 ! -name "module.yml" -exec rm -rf {} +

@@ -1,0 +1,21 @@
+# Justfile
+
+default:
+    @just --list
+
+
+test:
+    python test.py
+
+serve:
+    @echo "Serving ocp_vscode..."
+    python -m ocp_vscode
+
+serve-stop:
+    @echo "Stopping serving ocp_vscode..."
+    -pkill -f "ocp_vscode"
+    -fuser -k 3939/tcp
+
+watch-main:
+    @echo "http://localhost:3939/"
+    ls plates/main.py | entr python3 plates/main.py

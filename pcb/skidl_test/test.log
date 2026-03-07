@@ -1,0 +1,21 @@
+WARNING: KICAD6_SYMBOL_DIR environment variable is missing, so the default KiCad symbol libraries won't be searched. @ [/home/davide/04_Projects/symlink-keyboard/pcb/<frozen importlib._bootstrap_external>:999=>/home/davide/04_Projects/symlink-keyboard/pcb/<frozen importlib._bootstrap>:488]
+WARNING: KICAD7_SYMBOL_DIR environment variable is missing, so the default KiCad symbol libraries won't be searched. @ [/home/davide/04_Projects/symlink-keyboard/pcb/<frozen importlib._bootstrap_external>:999=>/home/davide/04_Projects/symlink-keyboard/pcb/<frozen importlib._bootstrap>:488]
+WARNING: KICAD8_SYMBOL_DIR environment variable is missing, so the default KiCad symbol libraries won't be searched. @ [/home/davide/04_Projects/symlink-keyboard/pcb/<frozen importlib._bootstrap_external>:999=>/home/davide/04_Projects/symlink-keyboard/pcb/<frozen importlib._bootstrap>:488]
+WARNING: fp-lib-table file was not found. Component footprints are not available.
+WARNING: fp-lib-table file was not found. Component footprints are not available.
+WARNING: fp-lib-table file was not found. Component footprints are not available.
+WARNING: fp-lib-table file was not found. Component footprints are not available.
+WARNING: Missing tag on R instantiated at /home/davide/04_Projects/symlink-keyboard/pcb/test.py:7.
+WARNING: Random tag Oslp1SHXsq generated for R.
+WARNING: Missing tag on R instantiated at /home/davide/04_Projects/symlink-keyboard/pcb/test.py:7.
+WARNING: Random tag NbetMM4Uti generated for R.
+WARNING: Missing tag on  instantiated at /home/davide/04_Projects/symlink-keyboard/pcb/<frozen importlib._bootstrap>:488.
+INFO: 9 warnings found while generating netlist.
+INFO: 0 errors found while generating netlist.
+
+INFO: 9 warnings found while generating DOT.
+INFO: 0 errors found while generating DOT.
+
+INFO: 9 warnings found while generating DOT.
+INFO: 0 errors found while generating DOT.
+

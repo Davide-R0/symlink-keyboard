@@ -1,0 +1,8 @@
+WARNING: fp-lib-table file was not found. Component footprints are not available.
+WARNING: fp-lib-table file was not found. Component footprints are not available.
+WARNING: fp-lib-table file was not found. Component footprints are not available.
+WARNING: fp-lib-table file was not found. Component footprints are not available.
+ERROR: Can't open file: /home/davide/04_Projects/symlink-keyboard/pcb/power.
+ @ [/home/davide/04_Projects/symlink-keyboard/.venv/bin/skidl-part-search:6]
+ERROR: Can't open file: /home/davide/04_Projects/symlink-keyboard/pcb/Device.
+ @ [/home/davide/04_Projects/symlink-keyboard/.venv/bin/skidl-part-search:6]

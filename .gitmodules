@@ -1,0 +1,15 @@
+[submodule "pcb/vendor/kbd"]
+	path = pcb/vendor/kbd
+	url = https://github.com/foostan/kbd.git
+[submodule "pcb/vendor/Keebio-Parts.pretty"]
+	path = pcb/vendor/Keebio-Parts.pretty
+	url = https://github.com/keebio/Keebio-Parts.pretty.git
+[submodule "pcb/vendor/nice-nano-kicad"]
+	path = pcb/vendor/nice-nano-kicad
+	url = https://github.com/bstiq/nice-nano-kicad.git
+[submodule "pcb/vendor/vik"]
+	path = pcb/vendor/vik
+	url = https://github.com/sadekbaroudi/vik.git
+[submodule "pcb/vendor/kicad-keyboard-parts.pretty"]
+	path = pcb/vendor/kicad-keyboard-parts.pretty
+	url = https://github.com/ebastler/kicad-keyboard-parts.pretty.git

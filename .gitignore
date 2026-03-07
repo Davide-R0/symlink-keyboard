@@ -1,0 +1,127 @@
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Nix
+.direnv/
+result
+result-*
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*-cache*
+*-bak
+*-bak*
+*~
+~*
+_autosave-*
+\#auto_saved_files\#
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+\#auto_saved_files#
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+# Archived Backups (KiCad 6.0)
+**/*-backups/*.zip
+
+# Local project settings
+*.kicad_prl
+
+# OpenSCAD exports (keep your .scad source, ignore the generated stuff)
+# NOTE: maybe not all files?
+*.stl
+*.obj
+*.dxf
+*.svg
+*.png
+# Build scripts for OpenSCAD
+*.echo
+
+# Python Virtual Environment
+.venv/
+venv/
+.python-version
+ENV/
+# Python Scripts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.o
+# clangd
+app/.cache/
+
+# Nix / Direnv
+.direnv/
+.venv/
+result
+result-*
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore build
+build/
+
+# ZMK / Zephyr build artifacts
+build/
+.west/
+# Ignore West workspaces
+#.west/
+#zmk/
+#/zephyr
+##zephyr/
+##!zephyr/module.yml
+#modules/
+#bootloader/
+#tools/
+#optional
+#zmk-config
+
+# Distribution / packaging
+node_modules/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+_*.md

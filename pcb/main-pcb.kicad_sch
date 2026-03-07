@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0040c647-88af-47fb-b160-a5636bcd1622")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 134.62 26.67)
+		(size 54.61 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1e5bf4a0-aef5-4b55-9cf0-bd6a7f8ea245")
+		(property "Sheetname" "Switch Matrix"
+			(at 134.62 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switch_matrix_sx.kicad_sch"
+			(at 134.62 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 95.25)
+		(size 71.12 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b5051251-134d-4f20-bbdf-8b6ff7a38b92")
+		(property "Sheetname" "MCU & Power"
+			(at 167.64 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu_power.kicad_sch"
+			(at 167.64 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 140.97)
+		(size 35.56 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d377c4e2-4113-4a71-93f9-81fc2794926c")
+		(property "Sheetname" "Peripherals"
+			(at 78.74 140.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 78.74 177.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 86.36)
+		(size 46.99 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dd19406d-4a54-45eb-8fa6-cd12cd297dbe")
+		(property "Sheetname" "RGB LEDs"
+			(at 57.15 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rgb_leds.kicad_sch"
+			(at 57.15 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

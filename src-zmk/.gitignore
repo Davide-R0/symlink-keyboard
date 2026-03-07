@@ -1,0 +1,11 @@
+# Forese non serve...
+# Ignore West workspaces
+.west/
+zmk/
+zephyr/
+!zephyr/module.yml
+modules/
+bootloader/
+tools/
+optional
+zmk-config

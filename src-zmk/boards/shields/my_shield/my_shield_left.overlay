@@ -1,0 +1,48 @@
+/* my_shield_left.overlay */
+
+#include "my_shield.dtsi" /* File comune se vuoi condividere codice, opzionale */
+
+/ {
+    chosen {
+        zmk,kscan = &kscan0;
+        zmk,matrix-transform = &default_transform; /* <--- ECCOLO! */
+    };
+};
+
+/ {
+    /* Definiamo il potenziometro EC11 */
+    sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&left_encoder>;
+        triggers-per-rotation = <20>;
+    };
+};
+
+/* Configuriamo i pin fisici dell'encoder */
+&left_encoder {
+    status = "okay";
+    /* Esempio: Encoder collegato ai pin D4 e D5 del nice!nano */
+    a-gpios = <&pro_micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+    b-gpios = <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+};
+
+/* Configurazione della matrice (Kscan) per la metà sinistra */
+&kscan0 {
+    compatible = "zmk,kscan-gpio-matrix";
+    diode-direction = "col2row"; // Assumendo che i diodi vadano dalle colonne alle righe
+    
+    /* Esempio: Righe collegate ai pin D1, D0, D2, D3 */
+    row-gpios
+        = <&pro_micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        ;
+
+    /* Colonne collegate ad altri pin... */
+    col-gpios
+        = <&pro_micro 6 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 7 GPIO_ACTIVE_HIGH>
+        /* ... eccetera ... */
+        ;
+};

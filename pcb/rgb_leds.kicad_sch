@@ -1,0 +1,10147 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "dcb136ed-8948-4643-b4f0-628aac39f132")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED:SK6812"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "SK6812"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6812_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SK6812_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED:SK6812MINI"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "SK6812MINI"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel Mini addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812MINI_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6812MINI_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SK6812MINI_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Logic_LevelTranslator:SN74LVC1T45DBV"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SN74LVC1T45DBV"
+				(at 3.81 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf"
+				(at -22.86 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Level-Shifter CMOS-TTL-Translation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74LVC1T45DBV_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -0.762 2.032) (xy 1.016 1.016) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -2.54 -1.016) (xy -2.54 0) (xy -4.572 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.794 1.016) (xy 2.794 0) (xy 4.064 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 1.016 -1.778) (xy 1.016 -2.032) (xy -0.762 -1.016) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0) (xy 2.794 -1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74LVC1T45DBV_1_1"
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "DIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VCCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "VCCB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "led sul retro per \nretroilluminazione"
+		(exclude_from_sim no)
+		(at 39.878 149.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a379f5ca-2c1e-4a1e-baf4-4b8ce5fcc9e3")
+	)
+	(text "NOTE: I condensatori anche se in parallelo \nvanno messi vicini ai led, sono per il disaccoppiamento"
+		(exclude_from_sim no)
+		(at 100.584 179.324 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e57ff8be-f445-4028-b382-086bde167b1a")
+	)
+	(text "NOTA: è consigliabile limitare a \nlivello softwere la luminosità a 80-90%"
+		(exclude_from_sim no)
+		(at 156.972 24.892 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e67b5ac4-4b60-4ab2-974d-92e1c3ddd72d")
+	)
+	(text "NOTE: la resistenza di dumping \nall'ingresso serve? a causa dell'altro\nshifting si può generere della sovraelongazione\ne alla lunga può danneggiare il primo led."
+		(exclude_from_sim no)
+		(at 57.912 18.542 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6e9e2fd-7aa7-4841-a5c2-7d403a64e3ae")
+	)
+	(junction
+		(at 129.54 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "014349ab-aacc-4f57-8197-413e8e7e5c9a")
+	)
+	(junction
+		(at 181.61 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05064518-fa26-48c0-b90b-26ce19da1d5f")
+	)
+	(junction
+		(at 166.37 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0528c2fe-4cae-44fb-8aee-f1ac8477595b")
+	)
+	(junction
+		(at 166.37 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05c4558c-5eef-46c6-8b51-a1be660e1092")
+	)
+	(junction
+		(at 107.95 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07d8ef16-bf16-455d-b262-50e3e0f8e98f")
+	)
+	(junction
+		(at 218.44 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08e57040-55ba-434d-aff7-9357872aa2e9")
+	)
+	(junction
+		(at 144.78 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d3715cd-f7d5-4a7a-bf8c-dfde2ab4a8be")
+	)
+	(junction
+		(at 218.44 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f96fb4a-fa1b-44ca-b2c1-cb6680ad454d")
+	)
+	(junction
+		(at 255.27 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fa348c4-dfc9-43f4-aa27-d6f676214890")
+	)
+	(junction
+		(at 43.18 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10fa995d-625f-4fa0-aa24-2f8588740c58")
+	)
+	(junction
+		(at 92.71 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1399b23d-65f1-4a8e-9d0c-f7b9be6ed546")
+	)
+	(junction
+		(at 218.44 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16c25874-6ac2-4b0a-86a2-b73a41f6aa3a")
+	)
+	(junction
+		(at 144.78 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d58f4ca-b5f7-46c7-8cca-43262a661452")
+	)
+	(junction
+		(at 203.2 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2063a703-400b-412c-80b5-4dfbd8248695")
+	)
+	(junction
+		(at 71.12 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "213d23b7-2f04-48b7-9ea3-15b1902b6b52")
+	)
+	(junction
+		(at 203.2 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21446947-2f10-4eae-8887-ca1021f9eff5")
+	)
+	(junction
+		(at 166.37 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2173c594-57fc-4b3d-88b6-3099683433fd")
+	)
+	(junction
+		(at 255.27 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24363ee1-5109-4568-881a-595e93c0318d")
+	)
+	(junction
+		(at 55.88 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28a1827a-008a-4dd7-97a0-be63d1c6f2be")
+	)
+	(junction
+		(at 129.54 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ba65cec-266a-47d7-b439-54e707a1951b")
+	)
+	(junction
+		(at 92.71 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ebd9a56-ac0d-41a3-bcce-d2e2e02c5a3d")
+	)
+	(junction
+		(at 240.03 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bd63f0d-9d41-4f33-8ca9-6aaae815f669")
+	)
+	(junction
+		(at 144.78 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dabc2ec-3d4d-4958-8b06-3ee5a5ab6477")
+	)
+	(junction
+		(at 92.71 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3edf4e96-7359-4992-b3b7-6b2c0aec88c7")
+	)
+	(junction
+		(at 240.03 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42bef624-de90-4500-9ce3-073ffa94495a")
+	)
+	(junction
+		(at 107.95 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cdde299-1432-4dc6-9c46-1972424e1cb3")
+	)
+	(junction
+		(at 181.61 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "549090f5-f284-48bf-8e5c-79579506ec7b")
+	)
+	(junction
+		(at 181.61 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54a9db68-d324-47e4-a0ee-2cd0a1316c47")
+	)
+	(junction
+		(at 181.61 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "584b4765-4f41-475e-8a0b-7a050b714890")
+	)
+	(junction
+		(at 218.44 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "593746fd-d887-4839-8087-d25cb094caa6")
+	)
+	(junction
+		(at 255.27 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5edb8fd0-e3fb-40cd-8e65-b8dbd29897a4")
+	)
+	(junction
+		(at 107.95 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fd8c119-e9aa-4ca4-8b47-4a907546f269")
+	)
+	(junction
+		(at 281.94 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6010637f-d5d8-4645-a657-b9eac49354cf")
+	)
+	(junction
+		(at 144.78 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6256b129-4d6f-4943-9832-bb39e4a62291")
+	)
+	(junction
+		(at 181.61 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67325e4b-058e-48a7-b2d5-0de71c430737")
+	)
+	(junction
+		(at 107.95 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68e4a478-8440-442f-91b8-aaa1091cc7a4")
+	)
+	(junction
+		(at 92.71 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d55d70b-243a-462c-a028-068f76c40e6a")
+	)
+	(junction
+		(at 129.54 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6db90579-4566-4b48-b957-eabcf08cece0")
+	)
+	(junction
+		(at 240.03 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70628370-b289-4521-94af-94c770c1162c")
+	)
+	(junction
+		(at 92.71 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "724102f5-88f5-42d6-8058-284617ba6eba")
+	)
+	(junction
+		(at 71.12 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "725821e9-8a99-489e-a4ff-530067581a85")
+	)
+	(junction
+		(at 55.88 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75a02095-d6ea-49dc-8d45-df29ee81f3f9")
+	)
+	(junction
+		(at 281.94 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "783f0cf2-a9d1-4f99-a13d-6a82905074cc")
+	)
+	(junction
+		(at 203.2 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a1c8230-ac0c-48f1-990b-1720b0ba7025")
+	)
+	(junction
+		(at 166.37 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a52894b-2f3c-495d-94a0-430e578ed497")
+	)
+	(junction
+		(at 218.44 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d92909f-eba6-405d-99e1-cbd61184adb7")
+	)
+	(junction
+		(at 166.37 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ff040cd-8000-4e5d-8d71-9cc51e536f66")
+	)
+	(junction
+		(at 55.88 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ff3c420-af53-430c-9556-7b31ff61069b")
+	)
+	(junction
+		(at 71.12 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88dd267b-f235-4a71-b19a-06812d7fc1ce")
+	)
+	(junction
+		(at 107.95 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dfdffb0-f1be-4f63-bcad-79e6ebbabba5")
+	)
+	(junction
+		(at 218.44 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90eb4397-7acf-4c37-a397-44afae4007ef")
+	)
+	(junction
+		(at 71.12 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "916c7ddb-a0e7-497c-8ec7-94754036ac77")
+	)
+	(junction
+		(at 181.61 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95519464-518a-4fce-ba0a-eae6f02686b7")
+	)
+	(junction
+		(at 55.88 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ca58bbb-c1a2-4cb9-8263-a60e644be44d")
+	)
+	(junction
+		(at 129.54 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cc52cf5-1991-4c15-8765-f23d0965fd77")
+	)
+	(junction
+		(at 71.12 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a63ec58e-a2df-43cf-b7d4-82947b4d0993")
+	)
+	(junction
+		(at 240.03 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a881e91f-10a6-4c97-8293-a2dcc6a833de")
+	)
+	(junction
+		(at 203.2 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a89d0e10-287f-4c6a-8cd9-046874518f5e")
+	)
+	(junction
+		(at 203.2 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab074c2b-2d1a-4069-86aa-b4d5d73ba628")
+	)
+	(junction
+		(at 240.03 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af491e4d-8a69-44fd-84a3-31ec38861ad3")
+	)
+	(junction
+		(at 71.12 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1ed2416-17ed-498c-a107-8e924db5decf")
+	)
+	(junction
+		(at 255.27 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3bb2a91-6536-4f58-919f-12ec1af7ed94")
+	)
+	(junction
+		(at 107.95 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b47c643d-4dd6-46af-b99d-d5eb1f0676be")
+	)
+	(junction
+		(at 240.03 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7d51170-38b1-49fc-88a7-2996fc87ec9c")
+	)
+	(junction
+		(at 129.54 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "baa1260b-9441-46e8-aab1-13fd73d1f6a3")
+	)
+	(junction
+		(at 203.2 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc659eed-c69b-4129-991a-25a9bbc3a7f5")
+	)
+	(junction
+		(at 255.27 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd8024d5-217d-4cc0-87f3-c1adda223d05")
+	)
+	(junction
+		(at 92.71 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca676ff7-b857-4929-88a3-8ee4f4b90147")
+	)
+	(junction
+		(at 43.18 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccd09e0b-063d-4965-80b7-d1190cd7d31a")
+	)
+	(junction
+		(at 166.37 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfe6fc02-938c-4b32-a9a3-0d49e64a41a4")
+	)
+	(junction
+		(at 144.78 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d01c192d-b44a-4fe4-9377-ee444398e675")
+	)
+	(junction
+		(at 55.88 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d154e7a7-5e7f-468f-8886-ea89a9c58385")
+	)
+	(junction
+		(at 144.78 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8d9da1d-b273-4e95-a42c-09c98a5a0934")
+	)
+	(junction
+		(at 55.88 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9edb973-7081-4842-96f9-66cdd23288dc")
+	)
+	(junction
+		(at 203.2 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db050d9d-9c6e-4b13-a208-8af9a77aaee5")
+	)
+	(junction
+		(at 166.37 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcc002fc-9275-4ef5-911a-7e2398927a63")
+	)
+	(junction
+		(at 92.71 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "def56f50-4d39-4eb1-8e4d-de7d47e2844c")
+	)
+	(junction
+		(at 107.95 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df0dcf97-d805-4982-803e-62f4d61d4f88")
+	)
+	(junction
+		(at 255.27 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9ed416e-9f3f-4b9f-bd0f-3fbe8ee4cc50")
+	)
+	(junction
+		(at 129.54 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eca8a277-c113-41cc-a7ee-adadb0f70fcf")
+	)
+	(junction
+		(at 45.72 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee92897a-3e7d-4522-a5b1-5bc13bbad7e8")
+	)
+	(junction
+		(at 144.78 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f309f45e-7138-4766-a51c-e364ad43bbd5")
+	)
+	(junction
+		(at 129.54 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f52adbe4-4e15-410e-ae38-2597c62ec0c8")
+	)
+	(junction
+		(at 181.61 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f87ae472-692a-4953-b576-cfa06c83afe5")
+	)
+	(junction
+		(at 218.44 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fac8c68b-e347-4eba-8883-0d841dc03006")
+	)
+	(junction
+		(at 240.03 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc47ddb5-2051-452f-8e1d-3d9694a734af")
+	)
+	(junction
+		(at 71.12 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fed18bac-f697-400a-9e4d-0d5397c5fd03")
+	)
+	(no_connect
+		(at 63.5 149.86)
+		(uuid "afda8d7f-ac59-4669-abbe-d3dc5da1a307")
+	)
+	(wire
+		(pts
+			(xy 189.23 68.58) (xy 210.82 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02201425-7938-4904-9da9-fbc37ce1185e")
+	)
+	(wire
+		(pts
+			(xy 71.12 38.1) (xy 92.71 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "027bfdf0-7636-4e66-a9a2-c3ecaaf1ac65")
+	)
+	(wire
+		(pts
+			(xy 92.71 160.02) (xy 107.95 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03987325-5e21-4c34-9242-eace8d5a591f")
+	)
+	(wire
+		(pts
+			(xy 255.27 101.6) (xy 255.27 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03db5f15-f81c-496d-9d30-894b59a0610f")
+	)
+	(wire
+		(pts
+			(xy 218.44 137.16) (xy 218.44 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049599ab-b9b3-471d-984a-7344faa60a64")
+	)
+	(wire
+		(pts
+			(xy 255.27 160.02) (xy 281.94 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "053909a5-bca4-48f8-91aa-a038baa2a49d")
+	)
+	(wire
+		(pts
+			(xy 166.37 38.1) (xy 166.37 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066eb22a-9d99-4348-87f9-7df6d4729189")
+	)
+	(wire
+		(pts
+			(xy 152.4 129.54) (xy 173.99 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ac65be-b769-48f6-b10f-2dcd4c15304b")
+	)
+	(wire
+		(pts
+			(xy 203.2 55.88) (xy 203.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "071bd764-f431-4d50-8270-3af724abaaab")
+	)
+	(wire
+		(pts
+			(xy 48.26 109.22) (xy 63.5 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "080eea6f-6193-454c-8100-07b5883f7a7d")
+	)
+	(wire
+		(pts
+			(xy 189.23 109.22) (xy 210.82 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b4f8257-e0a1-47ee-b173-8f46601a2678")
+	)
+	(wire
+		(pts
+			(xy 203.2 139.7) (xy 203.2 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb09c48-f58f-41b0-96fb-190d28768afd")
+	)
+	(wire
+		(pts
+			(xy 129.54 38.1) (xy 144.78 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c95d7f9-35ff-4ed4-af22-efc6a4004fa0")
+	)
+	(wire
+		(pts
+			(xy 115.57 48.26) (xy 137.16 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ecd77ac-7636-409c-ae96-762e27a1012b")
+	)
+	(wire
+		(pts
+			(xy 255.27 119.38) (xy 281.94 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f2a267b-1409-471a-8cbf-603bcf6bc8a0")
+	)
+	(wire
+		(pts
+			(xy 181.61 38.1) (xy 203.2 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "102ad406-cfbc-49af-a932-77884f86c0ca")
+	)
+	(wire
+		(pts
+			(xy 107.95 137.16) (xy 107.95 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "108a4ae2-f37a-4c62-b82d-c046e3735135")
+	)
+	(wire
+		(pts
+			(xy 129.54 96.52) (xy 129.54 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e4a666-e24a-4c9f-8842-e663cb371d6e")
+	)
+	(wire
+		(pts
+			(xy 181.61 78.74) (xy 203.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1371a690-7eab-41c8-b029-2807e3e571e9")
+	)
+	(wire
+		(pts
+			(xy 92.71 78.74) (xy 107.95 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f7909f-460a-4025-9796-c20e68287fdd")
+	)
+	(wire
+		(pts
+			(xy 226.06 129.54) (xy 276.86 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15959109-a2ca-4c2f-98ca-8089f81a73b0")
+	)
+	(wire
+		(pts
+			(xy 71.12 119.38) (xy 71.12 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f0683d-53c7-4d04-9edf-2f9f7a761ee7")
+	)
+	(wire
+		(pts
+			(xy 240.03 78.74) (xy 240.03 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19273999-2290-46d1-8c40-b6fee220998d")
+	)
+	(wire
+		(pts
+			(xy 166.37 119.38) (xy 166.37 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af5a954-d08e-4e7d-9365-44b56dacd2a4")
+	)
+	(wire
+		(pts
+			(xy 240.03 38.1) (xy 240.03 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0d8583-9c1f-43c6-9f24-2edd4264c4a8")
+	)
+	(wire
+		(pts
+			(xy 43.18 99.06) (xy 55.88 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ff2ab54-6f3f-4071-906d-8485a28fc603")
+	)
+	(wire
+		(pts
+			(xy 92.71 38.1) (xy 92.71 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f50298-b358-4e88-b10d-2a59bca5348a")
+	)
+	(wire
+		(pts
+			(xy 43.18 58.42) (xy 43.18 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ba7d1c-c707-4a80-9804-3558253ddc43")
+	)
+	(wire
+		(pts
+			(xy 71.12 76.2) (xy 71.12 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2320013b-498b-4aac-b27a-cf6269f93fd2")
+	)
+	(wire
+		(pts
+			(xy 276.86 109.22) (xy 262.89 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25752b20-4aca-4c0b-a4ab-3e65b45d5b26")
+	)
+	(wire
+		(pts
+			(xy 203.2 38.1) (xy 218.44 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25baac9e-226c-4afa-8694-e6d9f330d147")
+	)
+	(wire
+		(pts
+			(xy 166.37 38.1) (xy 181.61 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "264cf810-495e-4d69-9c1f-b00b5bd0ec52")
+	)
+	(wire
+		(pts
+			(xy 203.2 99.06) (xy 218.44 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "269dcaa6-8bfe-462b-8fb3-42a575499c08")
+	)
+	(wire
+		(pts
+			(xy 55.88 78.74) (xy 71.12 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27045715-1c54-4dae-a943-bfa255e50f0b")
+	)
+	(wire
+		(pts
+			(xy 55.88 116.84) (xy 55.88 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29ad8dca-292a-4065-aed6-706ebd19e05f")
+	)
+	(wire
+		(pts
+			(xy 92.71 157.48) (xy 92.71 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a27017b-c5d2-427f-8b2a-b22ef068ff7e")
+	)
+	(wire
+		(pts
+			(xy 166.37 58.42) (xy 166.37 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab8bdb2-40fd-4f33-beb6-74bb884f07ba")
+	)
+	(wire
+		(pts
+			(xy 144.78 139.7) (xy 166.37 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b704bf2-859f-4f06-9784-9f124186dc14")
+	)
+	(wire
+		(pts
+			(xy 203.2 119.38) (xy 203.2 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b78adfa-04d0-410d-bc58-ddf2af1cae29")
+	)
+	(wire
+		(pts
+			(xy 92.71 58.42) (xy 107.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bbdd5c8-6a6c-4b39-ac62-20473caf72dd")
+	)
+	(wire
+		(pts
+			(xy 255.27 78.74) (xy 255.27 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cdb1008-eb57-476f-93c2-33c0e433ac11")
+	)
+	(wire
+		(pts
+			(xy 218.44 96.52) (xy 218.44 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e41bd30-007d-433f-8c88-27f338405d16")
+	)
+	(wire
+		(pts
+			(xy 55.88 76.2) (xy 55.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fd8e532-9c2c-4833-8067-8e336582300f")
+	)
+	(wire
+		(pts
+			(xy 240.03 157.48) (xy 240.03 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30350fa6-8dc3-46c2-b8dd-88368f5330e0")
+	)
+	(wire
+		(pts
+			(xy 129.54 137.16) (xy 129.54 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30933c4b-ce7b-43c6-b2cd-b5a0840c2b9d")
+	)
+	(wire
+		(pts
+			(xy 30.48 53.34) (xy 33.02 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30adb272-cc11-43fc-a227-27696f61277d")
+	)
+	(wire
+		(pts
+			(xy 92.71 119.38) (xy 107.95 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31af0a3e-451c-4932-b304-87c05ea4293d")
+	)
+	(wire
+		(pts
+			(xy 218.44 116.84) (xy 218.44 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f4b0e9-75e9-4c91-8fb2-96ae408267a7")
+	)
+	(wire
+		(pts
+			(xy 78.74 68.58) (xy 100.33 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331772ce-3074-449d-a2f2-5657ee1fecae")
+	)
+	(wire
+		(pts
+			(xy 281.94 78.74) (xy 281.94 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3356b9f9-c6c7-4221-92c0-7147cffef28a")
+	)
+	(wire
+		(pts
+			(xy 30.48 48.26) (xy 33.02 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347a1a6e-f16d-4645-b64e-209936d90a59")
+	)
+	(wire
+		(pts
+			(xy 92.71 137.16) (xy 92.71 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35d8b4d5-7209-4210-b16d-b590d58edcf2")
+	)
+	(wire
+		(pts
+			(xy 181.61 99.06) (xy 181.61 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366d1ee3-15c1-4b8a-8a0a-8ad5672f32c6")
+	)
+	(wire
+		(pts
+			(xy 92.71 119.38) (xy 92.71 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "368d893e-d2c1-4e94-a95b-61bfe5dac994")
+	)
+	(wire
+		(pts
+			(xy 218.44 58.42) (xy 240.03 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f644c7-7ab5-48ae-8e07-ba710d92cb68")
+	)
+	(wire
+		(pts
+			(xy 181.61 157.48) (xy 181.61 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37998e58-e89e-4696-93aa-c5f259311417")
+	)
+	(wire
+		(pts
+			(xy 144.78 78.74) (xy 166.37 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d88daf-7799-47d7-b474-264515490689")
+	)
+	(wire
+		(pts
+			(xy 166.37 157.48) (xy 166.37 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3afbcc2a-1e00-4d45-8512-00e4555d3bea")
+	)
+	(wire
+		(pts
+			(xy 181.61 139.7) (xy 181.61 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc70ba2-1dc6-46c3-87dd-f98f34eb6121")
+	)
+	(wire
+		(pts
+			(xy 129.54 38.1) (xy 129.54 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c46849c-3bca-49eb-8999-e02f7ab56d21")
+	)
+	(wire
+		(pts
+			(xy 71.12 96.52) (xy 71.12 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c573539-92ae-42be-9299-f35652a5fd6e")
+	)
+	(wire
+		(pts
+			(xy 92.71 139.7) (xy 92.71 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eef1ef8-5ff0-4454-92df-2aae5697a044")
+	)
+	(wire
+		(pts
+			(xy 276.86 88.9) (xy 276.86 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "409cba0d-97f6-4b71-bf1f-a00226496b01")
+	)
+	(wire
+		(pts
+			(xy 115.57 88.9) (xy 137.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a57fdd-f21b-4348-b818-a78d09c77832")
+	)
+	(wire
+		(pts
+			(xy 262.89 48.26) (xy 276.86 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41277fa3-ce1e-4053-8024-71e84b2a1f14")
+	)
+	(wire
+		(pts
+			(xy 129.54 139.7) (xy 129.54 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "416b9ae7-5075-40e7-83ce-66e13c85794b")
+	)
+	(wire
+		(pts
+			(xy 166.37 139.7) (xy 181.61 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "416e9d1d-ce48-48b4-b49c-6dfa56291130")
+	)
+	(wire
+		(pts
+			(xy 181.61 99.06) (xy 203.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4195705b-086c-4d4b-b987-b7724a56b526")
+	)
+	(wire
+		(pts
+			(xy 240.03 160.02) (xy 255.27 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c8067f-1d5b-491e-8969-2f02801e819e")
+	)
+	(wire
+		(pts
+			(xy 181.61 119.38) (xy 203.2 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44259fec-7164-4909-afbe-a58be66af2cb")
+	)
+	(wire
+		(pts
+			(xy 181.61 76.2) (xy 181.61 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443e9f9e-1f77-4006-8b16-2e8dba6a9ebb")
+	)
+	(wire
+		(pts
+			(xy 55.88 137.16) (xy 55.88 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "451ab60a-325e-4242-8543-668f7b77a2a0")
+	)
+	(wire
+		(pts
+			(xy 107.95 119.38) (xy 129.54 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a0ce4c-678f-4241-940d-1a4dbf3d643a")
+	)
+	(wire
+		(pts
+			(xy 55.88 139.7) (xy 71.12 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b6ab03-0320-44be-aa78-add86f94f0dd")
+	)
+	(wire
+		(pts
+			(xy 92.71 139.7) (xy 107.95 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4803a8ed-5248-4535-b935-13d46e83c333")
+	)
+	(wire
+		(pts
+			(xy 255.27 99.06) (xy 240.03 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48cfa937-d8ab-469a-ac56-abef2fa94ad4")
+	)
+	(wire
+		(pts
+			(xy 129.54 119.38) (xy 129.54 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "495625fc-2b0c-4119-9514-5ac58dfcaf90")
+	)
+	(wire
+		(pts
+			(xy 107.95 58.42) (xy 107.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4985043e-1cbb-4b41-8b2a-3f9b3c3979c9")
+	)
+	(wire
+		(pts
+			(xy 276.86 129.54) (xy 276.86 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4afe4dc3-1577-4f0e-967c-349b5cba2643")
+	)
+	(wire
+		(pts
+			(xy 226.06 68.58) (xy 247.65 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b18ee9c-298d-4e3f-a26b-1c059906f38c")
+	)
+	(wire
+		(pts
+			(xy 240.03 78.74) (xy 255.27 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b4ca23d-f368-4ed7-8cad-9b7059377b5e")
+	)
+	(wire
+		(pts
+			(xy 203.2 99.06) (xy 203.2 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b6a8751-3733-4b79-8c0a-88728c511b2b")
+	)
+	(wire
+		(pts
+			(xy 107.95 157.48) (xy 107.95 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb49243-32cf-4345-b792-88962bee9520")
+	)
+	(wire
+		(pts
+			(xy 276.86 68.58) (xy 262.89 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d38d127-8560-4d31-910a-90ee4cb94e80")
+	)
+	(wire
+		(pts
+			(xy 107.95 119.38) (xy 107.95 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d3feb3b-330e-440e-97b9-611a9a9c96e0")
+	)
+	(wire
+		(pts
+			(xy 240.03 58.42) (xy 255.27 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da09a80-2530-4a56-a510-72b0d146e7fb")
+	)
+	(wire
+		(pts
+			(xy 115.57 68.58) (xy 137.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da30b0a-56ba-444c-a17d-55d45ea6e317")
+	)
+	(wire
+		(pts
+			(xy 240.03 139.7) (xy 240.03 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e51ecd1-20e7-4515-b79e-6d09a69d02fd")
+	)
+	(wire
+		(pts
+			(xy 218.44 160.02) (xy 240.03 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ea67671-1def-4644-bf02-9e26436d2e64")
+	)
+	(wire
+		(pts
+			(xy 240.03 96.52) (xy 240.03 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f7b279b-168e-462a-a772-ed7eba20f117")
+	)
+	(wire
+		(pts
+			(xy 218.44 38.1) (xy 240.03 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5036fb3d-f832-4aa9-b115-110d2ac93819")
+	)
+	(wire
+		(pts
+			(xy 129.54 157.48) (xy 129.54 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50486f12-325d-469e-a3f6-78a0bc78d02a")
+	)
+	(wire
+		(pts
+			(xy 218.44 99.06) (xy 240.03 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50bf830c-b67a-4f8b-9add-fb0590640469")
+	)
+	(wire
+		(pts
+			(xy 30.48 58.42) (xy 43.18 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51354d8e-3144-494c-8ab1-df6150f9b17d")
+	)
+	(wire
+		(pts
+			(xy 55.88 99.06) (xy 71.12 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "530d1dc3-5d17-448d-8fa9-fadf7343d30c")
+	)
+	(wire
+		(pts
+			(xy 48.26 68.58) (xy 63.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5332c7dd-fc3e-4961-aaf0-17c7d9397158")
+	)
+	(wire
+		(pts
+			(xy 71.12 160.02) (xy 92.71 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "538b3391-ab4e-47c6-a12b-9d2620a7b8be")
+	)
+	(wire
+		(pts
+			(xy 92.71 78.74) (xy 92.71 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54cc8081-7f76-4a21-98d4-b3d9b24186b9")
+	)
+	(wire
+		(pts
+			(xy 240.03 116.84) (xy 240.03 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55c08f6f-5d3b-4ac0-8f6a-4a885aed23f8")
+	)
+	(wire
+		(pts
+			(xy 71.12 78.74) (xy 92.71 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57b59ed3-ae56-4b3a-b4d1-7ba9c9414b76")
+	)
+	(wire
+		(pts
+			(xy 71.12 139.7) (xy 92.71 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58140f1f-2e10-4355-bf77-561db4b7b6d3")
+	)
+	(wire
+		(pts
+			(xy 78.74 149.86) (xy 100.33 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58942374-a229-4ee8-a619-fd66a3946e81")
+	)
+	(wire
+		(pts
+			(xy 181.61 55.88) (xy 181.61 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b428889-301e-4599-8420-c46a27877828")
+	)
+	(wire
+		(pts
+			(xy 71.12 99.06) (xy 92.71 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d06bede-c188-48e9-ade4-fce9a137ade1")
+	)
+	(wire
+		(pts
+			(xy 240.03 58.42) (xy 240.03 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e2c4283-95d5-4ff8-b84c-e2988be05a49")
+	)
+	(wire
+		(pts
+			(xy 240.03 55.88) (xy 240.03 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5efc790b-38b5-409c-856c-c16aa0235c78")
+	)
+	(wire
+		(pts
+			(xy 203.2 160.02) (xy 218.44 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f757ca6-db01-4f71-9bd2-80cad7246cdd")
+	)
+	(wire
+		(pts
+			(xy 166.37 99.06) (xy 166.37 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6067c608-304b-438f-baca-6b528b49c929")
+	)
+	(wire
+		(pts
+			(xy 92.71 116.84) (xy 92.71 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607e19ca-0958-4d97-9f60-fc3792b779a0")
+	)
+	(wire
+		(pts
+			(xy 107.95 139.7) (xy 107.95 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622322e9-fada-431e-9cce-1bd09e14ef85")
+	)
+	(wire
+		(pts
+			(xy 218.44 38.1) (xy 218.44 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64eeea7b-f92e-44f0-9485-efb11fda1503")
+	)
+	(wire
+		(pts
+			(xy 166.37 160.02) (xy 181.61 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6534d458-6102-431b-b0d2-9e3fd9235610")
+	)
+	(wire
+		(pts
+			(xy 276.86 48.26) (xy 276.86 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6537c0eb-9581-41fb-98bd-d57154a8a863")
+	)
+	(wire
+		(pts
+			(xy 48.26 109.22) (xy 48.26 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6558aff9-ce0e-48cd-a5c0-2a2fc34ff273")
+	)
+	(wire
+		(pts
+			(xy 55.88 96.52) (xy 55.88 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "655b2f75-008e-4673-b64f-787a057401e9")
+	)
+	(wire
+		(pts
+			(xy 166.37 78.74) (xy 166.37 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65c5d331-8a15-4554-83c1-981125bd892a")
+	)
+	(wire
+		(pts
+			(xy 71.12 58.42) (xy 71.12 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a608f76-91c2-4d46-aecb-1518ca4e1ab2")
+	)
+	(wire
+		(pts
+			(xy 55.88 119.38) (xy 55.88 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd92200-10b6-4e2e-b46f-c9fadb66a883")
+	)
+	(wire
+		(pts
+			(xy 152.4 149.86) (xy 173.99 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cd4322d-02c8-47ce-bc41-70179e4458e9")
+	)
+	(wire
+		(pts
+			(xy 226.06 109.22) (xy 247.65 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e868a73-3892-4af4-b2e3-a27fa5456a28")
+	)
+	(wire
+		(pts
+			(xy 189.23 48.26) (xy 210.82 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e8be90b-335b-4640-90d1-53a553b26000")
+	)
+	(wire
+		(pts
+			(xy 226.06 149.86) (xy 247.65 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70a610ef-489c-42cd-92f7-d5159fbd6acd")
+	)
+	(wire
+		(pts
+			(xy 129.54 78.74) (xy 129.54 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "731ad4f8-c3ff-4699-b652-4b0ef1e80e18")
+	)
+	(wire
+		(pts
+			(xy 189.23 149.86) (xy 210.82 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "736a55c1-2942-48f4-a4fc-6a84667584d3")
+	)
+	(wire
+		(pts
+			(xy 107.95 78.74) (xy 107.95 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e4978a-7070-4db2-8245-0c0162fe7ef0")
+	)
+	(wire
+		(pts
+			(xy 152.4 48.26) (xy 173.99 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75201440-59b4-459d-a8b5-5c55715e9183")
+	)
+	(wire
+		(pts
+			(xy 48.26 88.9) (xy 63.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76e13a62-1de0-46ad-bc39-aeca9207c80b")
+	)
+	(wire
+		(pts
+			(xy 144.78 76.2) (xy 144.78 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775557f6-0f2b-4371-b447-0e3d118ea008")
+	)
+	(wire
+		(pts
+			(xy 71.12 137.16) (xy 71.12 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c79841-2127-4af7-b52a-a3ea476a82a5")
+	)
+	(wire
+		(pts
+			(xy 107.95 116.84) (xy 107.95 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7851d6ee-6b70-467c-87df-5543bc8ba384")
+	)
+	(wire
+		(pts
+			(xy 129.54 116.84) (xy 129.54 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d9a9d6-6ac0-4b5a-8a66-09fab68b9696")
+	)
+	(wire
+		(pts
+			(xy 129.54 76.2) (xy 129.54 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79929553-8c9a-44ca-9b81-b435ca879465")
+	)
+	(wire
+		(pts
+			(xy 218.44 139.7) (xy 218.44 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a02f528-db64-4fc1-bb1a-bed47df90871")
+	)
+	(wire
+		(pts
+			(xy 71.12 119.38) (xy 92.71 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b0dd3e7-637f-4c21-bc80-de7d88fa4e39")
+	)
+	(wire
+		(pts
+			(xy 166.37 58.42) (xy 181.61 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c3beff0-4bc6-4ffc-afd1-c91e6fe19723")
+	)
+	(wire
+		(pts
+			(xy 166.37 99.06) (xy 181.61 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c884e71-63ff-4fa8-89b3-5ceb10015fbf")
+	)
+	(wire
+		(pts
+			(xy 226.06 88.9) (xy 247.65 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e27586d-a310-4e01-b069-0b80e448c5a8")
+	)
+	(wire
+		(pts
+			(xy 255.27 96.52) (xy 255.27 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "802e2966-9d24-4e19-beff-a6e2d534b457")
+	)
+	(wire
+		(pts
+			(xy 218.44 119.38) (xy 240.03 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80307ac6-a215-4209-aa5a-adee521a009c")
+	)
+	(wire
+		(pts
+			(xy 129.54 78.74) (xy 144.78 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8056e197-75d7-40cd-bf93-ddb08f39a61e")
+	)
+	(wire
+		(pts
+			(xy 255.27 139.7) (xy 255.27 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b1a50f-3d5e-400d-9feb-c0b6e6e600ec")
+	)
+	(wire
+		(pts
+			(xy 107.95 96.52) (xy 107.95 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80ec6bee-7acb-40ac-92f7-e64b04a7440c")
+	)
+	(wire
+		(pts
+			(xy 181.61 119.38) (xy 181.61 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80fe1292-2576-463e-b373-162695a3dcac")
+	)
+	(wire
+		(pts
+			(xy 129.54 99.06) (xy 144.78 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8122ba7d-dc61-4893-a890-42fe3f4d20bd")
+	)
+	(wire
+		(pts
+			(xy 203.2 78.74) (xy 218.44 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "826db883-e017-4a3a-ab0e-57ec72dfa4b5")
+	)
+	(wire
+		(pts
+			(xy 181.61 58.42) (xy 181.61 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82e7a471-b176-4f8f-bbcd-a07044662031")
+	)
+	(wire
+		(pts
+			(xy 152.4 109.22) (xy 173.99 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a91d26-d122-45b5-8c4d-b5ac93ac6a82")
+	)
+	(wire
+		(pts
+			(xy 71.12 58.42) (xy 92.71 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "864be805-eb14-4b40-9422-700c066f40f5")
+	)
+	(wire
+		(pts
+			(xy 78.74 48.26) (xy 100.33 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88772ed5-73f1-4bd1-9d65-303fc76d159b")
+	)
+	(wire
+		(pts
+			(xy 71.12 78.74) (xy 71.12 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "895342cf-f837-4dbe-a5ee-790c36dc3a38")
+	)
+	(wire
+		(pts
+			(xy 107.95 139.7) (xy 129.54 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aadedd0-e7f4-4682-bd5f-3f488798121c")
+	)
+	(wire
+		(pts
+			(xy 166.37 139.7) (xy 166.37 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b71a071-2547-49a8-9496-03b2a696eaf0")
+	)
+	(wire
+		(pts
+			(xy 276.86 149.86) (xy 262.89 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c604587-1870-422f-a1a8-ffd287360378")
+	)
+	(wire
+		(pts
+			(xy 144.78 119.38) (xy 166.37 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dfbf2e1-f49e-4928-8b9a-fa3820951a91")
+	)
+	(wire
+		(pts
+			(xy 144.78 160.02) (xy 166.37 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e529c5c-74d6-409f-8925-cbf0f918de8c")
+	)
+	(wire
+		(pts
+			(xy 255.27 38.1) (xy 255.27 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f73e8c6-960f-4c8a-b6cf-cf9674ce4041")
+	)
+	(wire
+		(pts
+			(xy 144.78 99.06) (xy 144.78 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f9632f9-70e7-4013-8cb7-c22374e0bff2")
+	)
+	(wire
+		(pts
+			(xy 55.88 99.06) (xy 55.88 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ff1c48c-c406-459a-95ff-fd07c02a2df4")
+	)
+	(wire
+		(pts
+			(xy 92.71 99.06) (xy 92.71 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d5b334-a55b-4b5d-9f4b-acebc8d759d9")
+	)
+	(wire
+		(pts
+			(xy 144.78 99.06) (xy 166.37 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93466fcc-77ef-43bb-877b-fb6c606a36d7")
+	)
+	(wire
+		(pts
+			(xy 281.94 119.38) (xy 281.94 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "936dac5b-caec-466c-98c9-bc67f02370ac")
+	)
+	(wire
+		(pts
+			(xy 276.86 88.9) (xy 262.89 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "948a0ddc-3098-4dd6-abfa-985aa4952d69")
+	)
+	(wire
+		(pts
+			(xy 92.71 99.06) (xy 107.95 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "963a47ae-c8a7-4dd8-be5d-c1969c43b119")
+	)
+	(wire
+		(pts
+			(xy 53.34 48.26) (xy 57.15 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9683c466-395f-4d9e-813d-49eb7ea51308")
+	)
+	(wire
+		(pts
+			(xy 55.88 78.74) (xy 55.88 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9727ada9-a025-4f00-852b-dd304e3cfa17")
+	)
+	(wire
+		(pts
+			(xy 71.12 99.06) (xy 71.12 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "999a210c-2130-4e85-b439-b7caa7252f60")
+	)
+	(wire
+		(pts
+			(xy 166.37 55.88) (xy 166.37 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b28e593-9de7-4a17-b76d-003eca1c430f")
+	)
+	(wire
+		(pts
+			(xy 203.2 76.2) (xy 203.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8f65e7-e908-4556-89f2-e48ad96d07da")
+	)
+	(wire
+		(pts
+			(xy 218.44 139.7) (xy 240.03 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f2e8478-85c2-4dea-8418-60143abafb37")
+	)
+	(wire
+		(pts
+			(xy 71.12 157.48) (xy 71.12 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f74fdcf-891c-45b2-8794-471b642f2b2d")
+	)
+	(wire
+		(pts
+			(xy 107.95 38.1) (xy 129.54 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a038a264-c8c4-46ef-a78a-dc90209dc706")
+	)
+	(wire
+		(pts
+			(xy 92.71 76.2) (xy 92.71 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0f5357c-6a6a-466e-9f46-50fa2288394a")
+	)
+	(wire
+		(pts
+			(xy 240.03 99.06) (xy 240.03 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a13ee98c-7c06-49ce-bd40-95a4b071c236")
+	)
+	(wire
+		(pts
+			(xy 166.37 116.84) (xy 166.37 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1868ffb-4d4b-4a77-a503-60ca16dcbb4b")
+	)
+	(wire
+		(pts
+			(xy 189.23 88.9) (xy 210.82 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1e3b70a-9d1e-4927-a691-e0f5ed4920aa")
+	)
+	(wire
+		(pts
+			(xy 166.37 137.16) (xy 166.37 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a294667a-25eb-4b95-824e-2459e634affa")
+	)
+	(wire
+		(pts
+			(xy 55.88 139.7) (xy 55.88 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a9297c-4ed8-4b29-81ab-3a923c90ad5e")
+	)
+	(wire
+		(pts
+			(xy 255.27 116.84) (xy 255.27 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3ae1c16-bf96-4d2e-a314-91520e289af3")
+	)
+	(wire
+		(pts
+			(xy 129.54 58.42) (xy 129.54 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3be41b0-fec6-4137-b63d-1dba62cdfa4d")
+	)
+	(wire
+		(pts
+			(xy 166.37 76.2) (xy 166.37 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d60fda-d999-43fd-b09f-db5c91f6a216")
+	)
+	(wire
+		(pts
+			(xy 203.2 119.38) (xy 218.44 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a41ba20f-4593-4cb6-84c5-446d85be0fe8")
+	)
+	(wire
+		(pts
+			(xy 203.2 157.48) (xy 203.2 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44f37b0-bc8a-4f46-ac47-66f2dcb36883")
+	)
+	(wire
+		(pts
+			(xy 107.95 55.88) (xy 107.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4f061b9-d2f1-4640-aecb-3368a817636c")
+	)
+	(wire
+		(pts
+			(xy 71.12 116.84) (xy 71.12 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6cb077a-e44f-485c-bee3-94a210343fd5")
+	)
+	(wire
+		(pts
+			(xy 107.95 58.42) (xy 129.54 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a72670d8-e265-46fc-a340-171f1bdb113c")
+	)
+	(wire
+		(pts
+			(xy 62.23 48.26) (xy 63.5 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a780a888-a4de-4c6d-be3c-94f89b22345b")
+	)
+	(wire
+		(pts
+			(xy 92.71 96.52) (xy 92.71 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7834a38-a8c3-4103-bad9-fd7ac0441639")
+	)
+	(wire
+		(pts
+			(xy 226.06 48.26) (xy 247.65 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c396a5-a87f-4b83-92de-14c756bc219d")
+	)
+	(wire
+		(pts
+			(xy 255.27 38.1) (xy 281.94 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7ed80c6-bbf6-4c49-8230-b542f915ad80")
+	)
+	(wire
+		(pts
+			(xy 152.4 88.9) (xy 173.99 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8674701-fb45-4461-b5a7-1034a6886f83")
+	)
+	(wire
+		(pts
+			(xy 55.88 58.42) (xy 71.12 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8680d96-2bf1-4e33-ae03-2a199711066e")
+	)
+	(wire
+		(pts
+			(xy 45.72 38.1) (xy 55.88 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8a1e1ef-af79-4d8c-bdff-2da1ba930fd3")
+	)
+	(wire
+		(pts
+			(xy 203.2 116.84) (xy 203.2 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8cafa74-b777-4a19-89c6-8c708e2fb976")
+	)
+	(wire
+		(pts
+			(xy 255.27 78.74) (xy 281.94 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90a2471-8d8e-4137-b752-5c41273e93f9")
+	)
+	(wire
+		(pts
+			(xy 48.26 68.58) (xy 48.26 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a934b77c-3576-4227-a855-829419c13764")
+	)
+	(wire
+		(pts
+			(xy 240.03 139.7) (xy 255.27 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9b22294-0d7d-4e6b-9977-bb9ad69f5556")
+	)
+	(wire
+		(pts
+			(xy 78.74 129.54) (xy 100.33 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9c7aa6b-0880-4e9f-ba91-af3e5b36669a")
+	)
+	(wire
+		(pts
+			(xy 43.18 139.7) (xy 55.88 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa03c770-a8bf-4097-8c61-d19e17d230ce")
+	)
+	(wire
+		(pts
+			(xy 144.78 55.88) (xy 144.78 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aae379d0-4f7f-44e5-97cf-23687adffc98")
+	)
+	(wire
+		(pts
+			(xy 144.78 157.48) (xy 144.78 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aae946e1-fbf2-4030-9267-b121b49b78f6")
+	)
+	(wire
+		(pts
+			(xy 71.12 55.88) (xy 71.12 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc81442-9c50-4cb1-bb96-fd8684c05221")
+	)
+	(wire
+		(pts
+			(xy 181.61 137.16) (xy 181.61 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af7e792c-700a-45b1-9f69-c0361b7afc75")
+	)
+	(wire
+		(pts
+			(xy 129.54 139.7) (xy 144.78 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0bf20b7-b2d6-43d6-8299-6be91665aff2")
+	)
+	(wire
+		(pts
+			(xy 55.88 55.88) (xy 55.88 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b80be8-8340-429a-b432-b382233a1ea7")
+	)
+	(wire
+		(pts
+			(xy 115.57 129.54) (xy 137.16 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c9e624-30da-4590-a181-679ae5a50aa9")
+	)
+	(wire
+		(pts
+			(xy 107.95 99.06) (xy 129.54 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b519f799-eb0c-4a23-9b6d-b8daa80a5e9f")
+	)
+	(wire
+		(pts
+			(xy 240.03 76.2) (xy 240.03 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6bac193-2653-4d93-a466-baae4cd4ba82")
+	)
+	(wire
+		(pts
+			(xy 181.61 96.52) (xy 181.61 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b79c3f61-31b9-42e2-a7d0-f23fddb874c4")
+	)
+	(wire
+		(pts
+			(xy 166.37 96.52) (xy 166.37 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d078bf-8d7c-449b-99f1-9e519ddf0744")
+	)
+	(wire
+		(pts
+			(xy 255.27 55.88) (xy 255.27 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba65bdec-f3c2-4697-94e9-b3138d9f60ff")
+	)
+	(wire
+		(pts
+			(xy 107.95 38.1) (xy 107.95 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba97eb43-83db-49fb-8233-c55c35160a9b")
+	)
+	(wire
+		(pts
+			(xy 55.88 160.02) (xy 71.12 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bacbed25-ea03-4f39-9f84-a5dd2499790f")
+	)
+	(wire
+		(pts
+			(xy 203.2 38.1) (xy 203.2 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd6225e9-3c1f-4b8d-8dea-98944b195944")
+	)
+	(wire
+		(pts
+			(xy 218.44 58.42) (xy 218.44 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed71572-69ca-4b70-a3ad-3adc64abe779")
+	)
+	(wire
+		(pts
+			(xy 152.4 68.58) (xy 173.99 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd508ff-6482-498f-bb60-c20a2ff02b25")
+	)
+	(wire
+		(pts
+			(xy 92.71 58.42) (xy 92.71 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c05b5555-ae9b-431d-bc46-3acc382f27f0")
+	)
+	(wire
+		(pts
+			(xy 144.78 139.7) (xy 144.78 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0cc8d1f-84cb-42f8-91d7-8cd0538f2a09")
+	)
+	(wire
+		(pts
+			(xy 45.72 34.29) (xy 45.72 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1da1f62-5daa-4e23-af0b-d5989dfab884")
+	)
+	(wire
+		(pts
+			(xy 129.54 58.42) (xy 144.78 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2293375-f8fb-40dc-a02f-6d2d3d74adf9")
+	)
+	(wire
+		(pts
+			(xy 48.26 129.54) (xy 63.5 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c232f908-3b62-4c17-937d-4fa634efcc14")
+	)
+	(wire
+		(pts
+			(xy 255.27 157.48) (xy 255.27 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3a7aab5-dd63-4382-9c68-ffe17ff16e5e")
+	)
+	(wire
+		(pts
+			(xy 255.27 76.2) (xy 255.27 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3e715a1-919c-477d-9b02-410df0db8cdf")
+	)
+	(wire
+		(pts
+			(xy 203.2 78.74) (xy 203.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c442eb2b-2e52-494f-8164-714648067acc")
+	)
+	(wire
+		(pts
+			(xy 92.71 38.1) (xy 107.95 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c472ac49-1179-4ffa-8e10-1b3de771c24f")
+	)
+	(wire
+		(pts
+			(xy 129.54 119.38) (xy 144.78 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c629b0b0-a4b4-4d73-bacc-b7505a1e7548")
+	)
+	(wire
+		(pts
+			(xy 144.78 78.74) (xy 144.78 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d55100-69e9-4a77-8edd-4904f9725af5")
+	)
+	(wire
+		(pts
+			(xy 281.94 38.1) (xy 281.94 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c82de58f-8bb5-45e6-aa8c-92e96a2de36f")
+	)
+	(wire
+		(pts
+			(xy 55.88 38.1) (xy 55.88 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca069a59-0bb4-4d9e-be9c-54c840f76f68")
+	)
+	(wire
+		(pts
+			(xy 55.88 58.42) (xy 55.88 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad9f718-1d03-4d6a-bd1b-d146f74fb970")
+	)
+	(wire
+		(pts
+			(xy 181.61 38.1) (xy 181.61 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc247d14-541f-4ebb-bf30-7e236c705e75")
+	)
+	(wire
+		(pts
+			(xy 78.74 88.9) (xy 100.33 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdece9ea-d944-49cd-a731-db32306f46a0")
+	)
+	(wire
+		(pts
+			(xy 218.44 78.74) (xy 240.03 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf52c3ab-c69f-41ea-a622-bd349f3cd3c7")
+	)
+	(wire
+		(pts
+			(xy 255.27 119.38) (xy 240.03 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d08f7149-fea7-4381-8371-a74e0ab5eac7")
+	)
+	(wire
+		(pts
+			(xy 144.78 137.16) (xy 144.78 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1580139-b40c-4233-8bbe-e683eb375dfa")
+	)
+	(wire
+		(pts
+			(xy 144.78 58.42) (xy 166.37 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d17e98d8-40a0-4519-bd6e-3719daa08f3c")
+	)
+	(wire
+		(pts
+			(xy 218.44 157.48) (xy 218.44 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d311d529-7a20-464d-8996-af9514c93e15")
+	)
+	(wire
+		(pts
+			(xy 107.95 76.2) (xy 107.95 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d45e9965-4d0e-442f-bb61-0d60e0678a55")
+	)
+	(wire
+		(pts
+			(xy 43.18 99.06) (xy 43.18 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5288ef6-a0ef-4a2e-8a33-9e16f4187462")
+	)
+	(wire
+		(pts
+			(xy 144.78 96.52) (xy 144.78 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d680ba72-8c09-4729-a00f-5ea60f16bbdf")
+	)
+	(wire
+		(pts
+			(xy 218.44 99.06) (xy 218.44 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b758b8-90f5-4284-bbe4-7fc4dafbd8a1")
+	)
+	(wire
+		(pts
+			(xy 203.2 139.7) (xy 218.44 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da683e22-cfd4-4e83-9a5a-c2399e4822d0")
+	)
+	(wire
+		(pts
+			(xy 115.57 149.86) (xy 137.16 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da865aa6-8d3b-48e6-a0fe-25f6d7f1cf12")
+	)
+	(wire
+		(pts
+			(xy 144.78 119.38) (xy 144.78 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc46d27b-9bff-48b0-b154-e0b872872df3")
+	)
+	(wire
+		(pts
+			(xy 240.03 38.1) (xy 255.27 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb53524-9e02-4886-bb15-87579077134c")
+	)
+	(wire
+		(pts
+			(xy 144.78 116.84) (xy 144.78 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "debace2c-8b17-41d1-b62d-459dcec10ca7")
+	)
+	(wire
+		(pts
+			(xy 166.37 78.74) (xy 181.61 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df05ba2e-57d6-4a7b-be40-cca0191c29b1")
+	)
+	(wire
+		(pts
+			(xy 218.44 119.38) (xy 218.44 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e26b6134-3daf-4099-8e3a-683f83c3c214")
+	)
+	(wire
+		(pts
+			(xy 55.88 38.1) (xy 71.12 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e277aa75-4d88-438b-aa74-fd14fee2512a")
+	)
+	(wire
+		(pts
+			(xy 107.95 78.74) (xy 129.54 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e33e04a3-8bb6-45e3-a351-2bcae19ea1ce")
+	)
+	(wire
+		(pts
+			(xy 107.95 160.02) (xy 129.54 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e49209c1-658d-4450-b440-09b7803ce0bd")
+	)
+	(wire
+		(pts
+			(xy 203.2 58.42) (xy 203.2 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4992711-7a56-4be2-b728-ec4256921b67")
+	)
+	(wire
+		(pts
+			(xy 55.88 119.38) (xy 71.12 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d28046-4114-4bbc-9530-217609748648")
+	)
+	(wire
+		(pts
+			(xy 218.44 78.74) (xy 218.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ed806d-5847-414b-a2ae-011a29b7390c")
+	)
+	(wire
+		(pts
+			(xy 218.44 55.88) (xy 218.44 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6109cf5-c65b-479c-9f25-cb8300da6f88")
+	)
+	(wire
+		(pts
+			(xy 189.23 129.54) (xy 210.82 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6201c42-5bc2-482e-b5e4-87925aab92b0")
+	)
+	(wire
+		(pts
+			(xy 107.95 99.06) (xy 107.95 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86598e5-8fa7-4487-9642-1c324a831131")
+	)
+	(wire
+		(pts
+			(xy 203.2 58.42) (xy 218.44 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8dfd559-ef4d-4d4b-b8eb-1e7b6bdad9dd")
+	)
+	(wire
+		(pts
+			(xy 115.57 109.22) (xy 137.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98e26af-31d2-4abd-ab60-30155fb445a4")
+	)
+	(wire
+		(pts
+			(xy 129.54 160.02) (xy 144.78 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a6c12e-30d4-4214-a003-839adfe8dd86")
+	)
+	(wire
+		(pts
+			(xy 181.61 116.84) (xy 181.61 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea845df4-7538-44c2-aaf6-7e2cdd63380d")
+	)
+	(wire
+		(pts
+			(xy 144.78 38.1) (xy 166.37 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ead181be-4984-4129-a513-89492774bf0b")
+	)
+	(wire
+		(pts
+			(xy 166.37 119.38) (xy 181.61 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb705220-fc10-456b-b52b-2a86a85cc13c")
+	)
+	(wire
+		(pts
+			(xy 43.18 58.42) (xy 55.88 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed467b32-85cb-4663-aa94-25b7ee915fd0")
+	)
+	(wire
+		(pts
+			(xy 78.74 109.22) (xy 100.33 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eedc2251-5b70-436e-9174-1883a59f8acb")
+	)
+	(wire
+		(pts
+			(xy 55.88 157.48) (xy 55.88 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef29ffc7-aea9-4b3e-94a6-35cb6785d6e5")
+	)
+	(wire
+		(pts
+			(xy 181.61 139.7) (xy 203.2 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1729d6b-ba98-4fab-95cd-8871bf594221")
+	)
+	(wire
+		(pts
+			(xy 181.61 78.74) (xy 181.61 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f176bfc9-8488-42dc-807d-87f7193906d5")
+	)
+	(wire
+		(pts
+			(xy 144.78 58.42) (xy 144.78 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4603096-6c42-4111-8ddb-95543658e0fd")
+	)
+	(wire
+		(pts
+			(xy 218.44 76.2) (xy 218.44 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f496808d-e9d4-485a-8acb-642a30197709")
+	)
+	(wire
+		(pts
+			(xy 144.78 38.1) (xy 144.78 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f3300d-d919-499c-a02a-c4efef780c24")
+	)
+	(wire
+		(pts
+			(xy 71.12 38.1) (xy 71.12 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f65fcb11-8e7d-44ab-ab13-7131e55d76f1")
+	)
+	(wire
+		(pts
+			(xy 71.12 139.7) (xy 71.12 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d243bc-8083-435b-a611-d486bed23e21")
+	)
+	(wire
+		(pts
+			(xy 181.61 58.42) (xy 203.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f73e2dc5-160e-48a9-bb53-59ba5b7cc840")
+	)
+	(wire
+		(pts
+			(xy 203.2 137.16) (xy 203.2 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f984c59b-2705-441b-b370-d3b9e21b14ec")
+	)
+	(wire
+		(pts
+			(xy 203.2 96.52) (xy 203.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab274e7-1530-4757-bf29-2275ba89fe0a")
+	)
+	(wire
+		(pts
+			(xy 255.27 60.96) (xy 255.27 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb105ecf-a8da-47f4-8865-6e4f3a078490")
+	)
+	(wire
+		(pts
+			(xy 181.61 160.02) (xy 203.2 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb3cd88b-bb05-4962-aef9-1453dbe1dd7c")
+	)
+	(wire
+		(pts
+			(xy 129.54 99.06) (xy 129.54 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fba04c48-6f17-4b17-afb4-a4d15d83c342")
+	)
+	(wire
+		(pts
+			(xy 129.54 55.88) (xy 129.54 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd1156bb-eb52-4fa3-879c-8bf483b28e41")
+	)
+	(wire
+		(pts
+			(xy 40.64 34.29) (xy 40.64 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffbe9b43-4386-4736-970d-cd603f5e0abc")
+	)
+	(wire
+		(pts
+			(xy 92.71 55.88) (xy 92.71 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fff1b2e5-fd38-4a06-b7a8-d22b95973dc5")
+	)
+	(global_label "RGB_DATA"
+		(shape output)
+		(at 30.48 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06f61363-5d42-4df3-908b-cc64758be53f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.3024 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_IN"
+		(shape input)
+		(at 45.72 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de1ddc3a-9778-4989-ac59-602e48faf567")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.72 24.9548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812")
+		(at 218.44 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01435355-6f15-4203-9f6a-bf762f45b438")
+		(property "Reference" "LED34"
+			(at 228.6 144.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 228.6 146.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_OPSCO_SK6812_PLCC4_5.0x5.0mm_P3.1mm"
+			(at 217.17 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 215.9 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 218.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d69120e-d045-4def-8c8d-c6c4b71e848c")
+		)
+		(pin "3"
+			(uuid "2fd076b4-e0e6-4a49-86a7-cf44e364e512")
+		)
+		(pin "2"
+			(uuid "d2445b0c-def7-47ce-be37-ca6e717275c7")
+		)
+		(pin "4"
+			(uuid "97804075-92cb-4ce7-9fa1-f0ddb2272635")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 203.2 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04a4faec-6319-456f-8a06-8573b4c3a057")
+		(property "Reference" "C23"
+			(at 205.74 113.0362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 205.74 115.5762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 203.2 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 203.2 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "260c586f-6f6b-4dc0-802f-25476eb155ff")
+		)
+		(pin "2"
+			(uuid "89389bb5-9959-439b-bd6a-bb28e570c1f6")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 144.78 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06432a24-2843-460e-a846-df332fbddfdb")
+		(property "Reference" "LED9"
+			(at 157.48 63.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 157.48 65.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 143.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 142.24 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 144.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "003f97ef-f911-4b5e-b8cc-06bd25e8d6f3")
+		)
+		(pin "1"
+			(uuid "6c916342-2186-4f6e-9f5b-d1b3506e289f")
+		)
+		(pin "2"
+			(uuid "782026e2-0fa1-4863-b301-d27a5983092a")
+		)
+		(pin "3"
+			(uuid "87cda285-5950-4a81-a322-27fca8a0051f")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 30.48 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06a091b5-7a73-401f-a259-e50946b3c70f")
+		(property "Reference" "#PWR015"
+			(at 34.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 26.67 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 30.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6a91286-91cd-4499-a1af-e2ab609ddcb7")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 107.95 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0764529b-2b1a-415c-8c59-2bbc81f4650a")
+		(property "Reference" "LED8"
+			(at 120.65 63.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 120.65 65.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 106.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 105.41 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 107.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "cd383c54-4dee-4d01-bcbd-5c06c4fd36b4")
+		)
+		(pin "1"
+			(uuid "9dcff683-80d5-438f-bb1d-d832e4a33d8f")
+		)
+		(pin "2"
+			(uuid "659fe22b-98a1-456e-8a58-d6e53678deaf")
+		)
+		(pin "3"
+			(uuid "679f886e-8337-4336-86ab-1a7cd3686c94")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 107.95 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15cfb6e5-9490-41d3-a80d-0b28b9803701")
+		(property "Reference" "LED20"
+			(at 120.65 103.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 120.65 106.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 105.41 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 107.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "14913944-08db-483b-8ae5-6b38a68bc4b2")
+		)
+		(pin "1"
+			(uuid "0c2a109a-bdf7-412d-b605-8b85fc429bc4")
+		)
+		(pin "2"
+			(uuid "e1573741-417f-40fe-8c1c-49f5503d181f")
+		)
+		(pin "3"
+			(uuid "6872cf35-f72b-4234-9f03-24b5faec6e13")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20e0f578-0d68-4418-82a1-08cfde4d264a")
+		(property "Reference" "C25"
+			(at 58.42 133.3562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 58.42 135.8962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 55.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 55.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3223910-e983-4e9b-9efc-f56ebbe859c3")
+		)
+		(pin "2"
+			(uuid "125b3ac9-c088-4119-a0bd-986e461e1c4d")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 203.2 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "253ab665-b018-4d0a-897b-0e126fd8769b")
+		(property "Reference" "C11"
+			(at 205.74 72.3962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 205.74 74.9362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 203.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 203.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dce3b18e-3e78-428a-8343-fce71d2a2372")
+		)
+		(pin "2"
+			(uuid "925eb3e6-f84e-4109-8961-920a413a48ff")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812")
+		(at 181.61 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3213ef83-bcb8-4838-a837-571c259118b6")
+		(property "Reference" "LED33"
+			(at 191.77 144.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 191.77 146.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_OPSCO_SK6812_PLCC4_5.0x5.0mm_P3.1mm"
+			(at 180.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 179.07 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 181.61 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14a09175-452e-4cc5-8b27-341c720ae0de")
+		)
+		(pin "3"
+			(uuid "590818d0-2bc0-47a7-ad1e-97bf68af19e9")
+		)
+		(pin "2"
+			(uuid "e3a466b2-6bec-4d9a-bf2b-8e9a5a79d8fc")
+		)
+		(pin "4"
+			(uuid "adf0397b-c141-4378-945a-d3d25f2cd6f6")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812")
+		(at 107.95 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33e3af9d-9645-4ad5-9e84-449a83b68224")
+		(property "Reference" "LED31"
+			(at 118.11 144.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 118.11 146.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_OPSCO_SK6812_PLCC4_5.0x5.0mm_P3.1mm"
+			(at 106.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 105.41 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 107.95 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08543647-8c2d-4a4c-a87e-3cbf60c5108d")
+		)
+		(pin "3"
+			(uuid "f6dc0a70-7bbb-4f24-af85-42617829d280")
+		)
+		(pin "2"
+			(uuid "8a38b454-1a90-470a-81e8-aec4a4381c1c")
+		)
+		(pin "4"
+			(uuid "0b989b3b-ee7b-45d9-9629-61b86b674f06")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 218.44 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34b7752a-0f5f-4b8a-a0a7-c6cb7758b873")
+		(property "Reference" "LED11"
+			(at 231.14 63.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 231.14 65.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 217.17 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 215.9 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 218.44 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "71d0ec5a-7048-4fc8-879b-e9f8e6d57d62")
+		)
+		(pin "1"
+			(uuid "3710ff8f-2df9-4348-ac41-d51af615709a")
+		)
+		(pin "2"
+			(uuid "ffe1a6a8-fcae-4323-8b10-29195524ce42")
+		)
+		(pin "3"
+			(uuid "25825002-3873-4159-be24-dbcdb510246c")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3607ffac-0d39-4c5d-876e-258dc7e6b040")
+		(property "Reference" "C7"
+			(at 58.42 72.3962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 58.42 74.9362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 55.88 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 55.88 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "128f2ee3-c28c-4aa4-af7c-eb1fa09942a3")
+		)
+		(pin "2"
+			(uuid "011c430f-5511-44cf-a4e0-89de6311da8d")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 92.71 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38fa48f5-9e14-4bc5-b521-2267f213217e")
+		(property "Reference" "C26"
+			(at 95.25 133.3562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 95.25 135.8962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 92.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 92.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80d1b5bf-bb52-4d9d-b3fe-e9098314a362")
+		)
+		(pin "2"
+			(uuid "802c02f7-e072-449f-b696-9f569474b373")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 218.44 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d8c43f0-b707-41b6-b239-c25092e5446b")
+		(property "Reference" "LED29"
+			(at 231.14 123.1198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 231.14 125.6598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 219.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 220.98 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 218.44 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "99b575bf-2777-44f1-8832-1809c856b3bb")
+		)
+		(pin "1"
+			(uuid "ae2a19e0-7a08-437e-9ea4-9cd5d9ca562c")
+		)
+		(pin "2"
+			(uuid "4c93c970-c8e2-4403-9f79-1d7a79ab6a2a")
+		)
+		(pin "3"
+			(uuid "49304a28-a1e1-4653-8fa6-e0cf140649c5")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 129.54 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dd23f56-99e0-4f3b-b22f-a20fe40ea155")
+		(property "Reference" "C27"
+			(at 132.08 133.3562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 132.08 135.8962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 129.54 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 129.54 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b63ac2d-4adb-46db-a4b0-0cd7a7100e97")
+		)
+		(pin "2"
+			(uuid "ba961268-93bd-42ba-98e8-d89e5dcd8e38")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 181.61 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51c262f0-512c-4f34-9e21-eefd7053332b")
+		(property "Reference" "LED4"
+			(at 194.31 41.8398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 194.31 44.3798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 184.15 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 181.61 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6e647933-4d68-4b2e-b804-98d7a5180e42")
+		)
+		(pin "1"
+			(uuid "489e8375-d930-4c04-a004-f8309f613a8e")
+		)
+		(pin "2"
+			(uuid "1a212b24-facd-4adf-a3fb-32198dd08bcc")
+		)
+		(pin "3"
+			(uuid "19ca59c9-a17a-4b28-aa09-872f424009e0")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 71.12 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58bc429e-a324-4f52-b3a2-8a5603611665")
+		(property "Reference" "LED1"
+			(at 83.82 41.8398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 83.82 44.3798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 72.39 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 73.66 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 71.12 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3f05446a-8059-468d-9a1f-3e2725c8ee28")
+		)
+		(pin "1"
+			(uuid "572df6c8-662e-4de6-ae16-660835f9e5b7")
+		)
+		(pin "2"
+			(uuid "37a84880-318a-45a7-8f97-155ebdd8ad26")
+		)
+		(pin "3"
+			(uuid "c3161118-28f0-4ec9-8933-20d1c621ee13")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 92.71 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59f323d0-b785-4882-aaef-7b7dad18633b")
+		(property "Reference" "C14"
+			(at 95.25 92.7162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 95.25 95.2562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c6bab8e-0be2-4c5b-8dc5-1b8032ea802a")
+		)
+		(pin "2"
+			(uuid "1a6efc82-f903-4c0d-8b6e-e0c52c2791af")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 203.2 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a11e965-3f54-47d1-a947-1f73eac6b41b")
+		(property "Reference" "C29"
+			(at 205.74 133.3562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 205.74 135.8962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 203.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 203.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbbdee78-edaf-46b2-9566-233948a20595")
+		)
+		(pin "2"
+			(uuid "3eee6c4e-aec0-4ec6-9810-cfb8bed983ed")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 181.61 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d99de12-e7f3-482c-abb6-9de0b6d0d0eb")
+		(property "Reference" "LED16"
+			(at 194.31 82.4798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 194.31 85.0198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 184.15 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 181.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1ec1ff2c-10f9-4601-8e9e-058979ecd52e")
+		)
+		(pin "1"
+			(uuid "5c372eaa-f979-4460-8d34-74ca0e183b4b")
+		)
+		(pin "2"
+			(uuid "09f4a633-2c79-4872-9ddc-21029c6f4ebc")
+		)
+		(pin "3"
+			(uuid "8cb68f00-c495-4d92-a1da-9d03d968febb")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 92.71 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "608b5c79-3ed0-4167-a83e-6786c84446d2")
+		(property "Reference" "C20"
+			(at 95.25 113.0362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 95.25 115.5762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 92.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 92.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47e79e8a-84e0-46c7-a517-aeb93b021c55")
+		)
+		(pin "2"
+			(uuid "5d523872-06d1-42a6-b8b5-8086d2e3955e")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 92.71 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63003312-7844-4bd7-be0c-5b2198389a56")
+		(property "Reference" "C2"
+			(at 95.25 52.0762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 95.25 54.6162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 92.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 92.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cfe677d-0d22-4084-b1dd-e44e0453d5b2")
+		)
+		(pin "2"
+			(uuid "92f468c0-bef4-425a-9b73-64feb20b62aa")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 203.2 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "635e6eeb-07e6-410d-a20d-379f642136ff")
+		(property "Reference" "C17"
+			(at 205.74 92.7162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 205.74 95.2562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 203.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 203.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "137c0c46-e6da-4c33-aed9-642bfae6a3f6")
+		)
+		(pin "2"
+			(uuid "924df21c-7a11-43bd-b234-1596b14b54d4")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 144.78 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c31da25-7a1d-43c0-80d0-a3a4fe43ef36")
+		(property "Reference" "LED21"
+			(at 157.48 103.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 157.48 106.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 143.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 142.24 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5c351057-677a-4689-aea4-4ddffa199930")
+		)
+		(pin "1"
+			(uuid "48180a13-55e5-4661-b558-6b7f2054faca")
+		)
+		(pin "2"
+			(uuid "f8ac5ffb-11e7-4249-9ef1-ac61b941782b")
+		)
+		(pin "3"
+			(uuid "7c3806bd-f852-4984-9bb9-ebfa7d22f461")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 166.37 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c7561dd-aa0f-4cf6-a45a-3b21c51a27b6")
+		(property "Reference" "C33"
+			(at 168.91 153.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 168.91 156.2162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 166.37 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 166.37 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9e0e76e-2878-47da-aba8-d96d581d7a11")
+		)
+		(pin "2"
+			(uuid "02ca793e-7468-4eca-ad60-1f61f37c32c8")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 166.37 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "710c29f6-5ab3-4512-9413-84464d7ec4da")
+		(property "Reference" "C28"
+			(at 168.91 133.3562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 168.91 135.8962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 166.37 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 166.37 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d9034fa-a592-46af-9b4b-5af44f5e65af")
+		)
+		(pin "2"
+			(uuid "2c326449-ea00-456d-bf62-869938a928e5")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 129.54 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7147c8b5-9eef-4a55-8040-4eb78dfe60ac")
+		(property "Reference" "C9"
+			(at 132.08 72.3962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 132.08 74.9362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 129.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 129.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b4f5066-c473-4d48-9ddf-f60b0d3303be")
+		)
+		(pin "2"
+			(uuid "fed584a1-7060-400c-8578-3e2c33026b14")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 144.78 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71e68fe8-723d-4c06-8916-c52ded8e674e")
+		(property "Reference" "LED3"
+			(at 157.48 41.8398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 157.48 44.3798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 146.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 147.32 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 144.78 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "779a9cad-2e09-4ca0-8614-a7e308210d93")
+		)
+		(pin "1"
+			(uuid "a80c0214-8da6-4db0-8c6a-f866f780405f")
+		)
+		(pin "2"
+			(uuid "39d61fa3-9403-4c66-aa35-9e4869fc369d")
+		)
+		(pin "3"
+			(uuid "b75221d4-52c8-4c7e-9eeb-862f4d4673ca")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 240.03 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "725a9671-4fe5-4e96-902a-454e7cf1c96b")
+		(property "Reference" "C18"
+			(at 242.57 92.7162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 242.57 95.2562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 240.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 240.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "532b22b8-540b-474d-96fe-aea596c2d419")
+		)
+		(pin "2"
+			(uuid "88fb1b85-bc03-4a50-b22b-7bd88e82c771")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 240.03 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "742e38cc-56f2-449b-a9e3-ee6882ce68b5")
+		(property "Reference" "C35"
+			(at 242.57 153.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 242.57 156.2162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 240.03 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 240.03 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db3e6ebf-0d6a-4cb5-8a59-e8b687b8555e")
+		)
+		(pin "2"
+			(uuid "5b04365a-5d82-4c36-bdb2-e3a69d192742")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 218.44 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "758d1252-ddce-4745-ad7d-a425934d3728")
+		(property "Reference" "LED23"
+			(at 231.14 103.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 231.14 106.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 217.17 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 215.9 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 218.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "cde03434-70c4-4aa4-95e6-d363f19ee46f")
+		)
+		(pin "1"
+			(uuid "3d61a80b-5e9f-466f-add3-fb989b617f7d")
+		)
+		(pin "2"
+			(uuid "dad97bfb-5f2b-4e07-8db0-d379450a2cc6")
+		)
+		(pin "3"
+			(uuid "efb92700-0a9a-4b52-8ba0-cd6643c310de")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76521cdb-0a73-403c-80f4-8f6d734156a9")
+		(property "Reference" "C19"
+			(at 58.42 113.0362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 58.42 115.5762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d51092f0-83ba-48c7-8d4b-422119848a8c")
+		)
+		(pin "2"
+			(uuid "1960491b-d686-4737-9c04-55b78bbd032c")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 255.27 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76b0baef-4ae4-4627-9248-94ada93fc7bf")
+		(property "Reference" "LED12"
+			(at 267.97 63.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 267.97 65.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 254 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 252.73 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 255.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8feed9de-d9a0-4b2e-8e96-4f1fba68fe9a")
+		)
+		(pin "1"
+			(uuid "c7d9e14c-e636-46c9-91c5-2aac73ba41e3")
+		)
+		(pin "2"
+			(uuid "db22edd6-3a9d-4d48-a732-fbfac728b716")
+		)
+		(pin "3"
+			(uuid "701ea166-6c84-4c54-abd1-b50fb0829193")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 71.12 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "781561e9-7560-4317-b35c-a00fee5c8480")
+		(property "Reference" "LED13"
+			(at 83.82 82.4798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 83.82 85.0198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 72.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 73.66 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 71.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "fe22cb77-1ad2-4bbe-93c0-49aa7b82b6b0")
+		)
+		(pin "1"
+			(uuid "55efd51f-f65e-4d28-95cb-cab74883c8a6")
+		)
+		(pin "2"
+			(uuid "e869ca74-19bc-468e-a770-aad731a5b970")
+		)
+		(pin "3"
+			(uuid "61fcc8ec-bba8-41b3-96bc-d74b54772bb7")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 71.12 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a8bdd6d-bd95-45db-a029-cda34af6663f")
+		(property "Reference" "LED25"
+			(at 83.82 123.1198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 83.82 125.6598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 72.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 73.66 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 71.12 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5afccea5-389b-418b-a0e1-fcf183f1589d")
+		)
+		(pin "1"
+			(uuid "8e533bbf-0848-4fa4-a848-dc674f21c474")
+		)
+		(pin "2"
+			(uuid "67780243-709f-4b5c-af58-c02166a0b5bf")
+		)
+		(pin "3"
+			(uuid "b5d928a0-e7d5-482d-94ed-2855d5c900c0")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 71.12 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b683707-026a-4b54-bc6a-cfcb5536e65b")
+		(property "Reference" "LED19"
+			(at 83.82 103.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 83.82 106.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 69.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 68.58 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 71.12 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1bd13dd6-46a9-4a1f-974b-b6e15deeece4")
+		)
+		(pin "1"
+			(uuid "c9e60817-6f02-4377-95e3-da77f1723d7e")
+		)
+		(pin "2"
+			(uuid "d60c491c-6474-4382-b0e8-94b48e7dceb9")
+		)
+		(pin "3"
+			(uuid "ece26d7d-e5c6-4c16-8178-59f6ba38cf11")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 181.61 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e59c382-cccd-4b39-8696-d2659b26b7a7")
+		(property "Reference" "LED28"
+			(at 194.31 123.1198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 194.31 125.6598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 182.88 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 184.15 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 181.61 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "561295ad-b4bd-4e62-b17c-6daa3855bf4c")
+		)
+		(pin "1"
+			(uuid "e7077a99-555e-4086-ba08-8ff124b38980")
+		)
+		(pin "2"
+			(uuid "c8020e15-fbfd-49af-9f76-6a0476f70693")
+		)
+		(pin "3"
+			(uuid "d730d591-d209-4b61-93cc-61ed49d80258")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "829baa3c-3e66-440d-bd4a-5193f714f77a")
+		(property "Reference" "C30"
+			(at 58.42 153.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 58.42 156.2162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 55.88 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 55.88 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56c0eeb4-7e69-4764-8558-754fa05f0e07")
+		)
+		(pin "2"
+			(uuid "43248505-69eb-44cd-9a40-20db465bdf23")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 129.54 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8429e08a-2526-414c-ae39-4d06dafdf2dd")
+		(property "Reference" "C15"
+			(at 132.08 92.7162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 132.08 95.2562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dce2dcc0-af65-46a8-9950-27d42f5ba887")
+		)
+		(pin "2"
+			(uuid "e35baef0-6938-4eec-ba00-aace4eec3aa2")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 129.54 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85440893-2753-4d2e-88d3-d5dc3a1d9564")
+		(property "Reference" "C21"
+			(at 132.08 113.0362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 132.08 115.5762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bd7ad96-f7ad-4a93-903e-43bdbad989f0")
+		)
+		(pin "2"
+			(uuid "a987fe20-c683-4db2-9c3e-a068bce1114c")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 40.64 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a7b10c7-5b04-4e3e-9567-6c4dfb8e7a39")
+		(property "Reference" "#PWR04"
+			(at 40.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 40.64 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 40.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e595510f-efa3-47df-b469-7c0a0ea8a7fc")
+		)
+		(instances
+			(project ""
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 203.2 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a8ecb18-7ac1-4a04-b9cd-6cb29c48a861")
+		(property "Reference" "C5"
+			(at 205.74 52.0762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 205.74 54.6162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 203.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 203.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6987eed0-41b9-479a-a3b9-cfa620fc5316")
+		)
+		(pin "2"
+			(uuid "b28108ba-3a95-4f3f-8c73-c728bde7f844")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 92.71 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b3372ff-0ade-4d76-bfae-acd15a68ee0d")
+		(property "Reference" "C8"
+			(at 95.25 72.3962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 95.25 74.9362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "093a3c9d-84c3-41f1-b954-f6f429315246")
+		)
+		(pin "2"
+			(uuid "493ff640-b6ae-4b9a-a7ee-74c43c0e2d58")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 240.03 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8dc81e7d-1374-4ff3-acaf-5732d343aff5")
+		(property "Reference" "C24"
+			(at 242.57 113.0362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 242.57 115.5762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 240.03 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 240.03 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c4951e8-2925-41ec-8b0e-0076b3698500")
+		)
+		(pin "2"
+			(uuid "f32adc4d-0fdb-4cdf-b7cc-9dfd1feba4ad")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 255.27 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8eeeb4e8-a432-4d5e-b312-d25032936c99")
+		(property "Reference" "LED18"
+			(at 267.97 82.4798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 267.97 85.0198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 256.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 257.81 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 255.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "46f8d843-edc0-4feb-8b31-feb4a134a15d")
+		)
+		(pin "1"
+			(uuid "769efbce-f41c-4293-a3fa-5b66e9c657ad")
+		)
+		(pin "2"
+			(uuid "2250ca9f-de55-4035-bb58-00c7c78e7541")
+		)
+		(pin "3"
+			(uuid "8bb3685e-3931-42da-90e9-11b11fb41360")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 240.03 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99a0e3bc-09f9-425f-9998-29e031425cae")
+		(property "Reference" "C12"
+			(at 242.57 72.3962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 242.57 74.9362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 240.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 240.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3c94b1c-37c8-46e6-a065-50d6e2781518")
+		)
+		(pin "2"
+			(uuid "de274eb3-a5bc-4462-bbba-c7f17d45f135")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 92.71 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99e3f4d3-2c98-49c1-8403-dbb4e138e916")
+		(property "Reference" "C31"
+			(at 95.25 153.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 95.25 156.2162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 92.71 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 92.71 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d3a569e-e845-46fa-84cd-950df2369b94")
+		)
+		(pin "2"
+			(uuid "e43f0b3b-2a3a-4992-be2f-de7d82e1063f")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 166.37 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a8ae4aa-0c52-4813-985b-e53562f0c936")
+		(property "Reference" "C4"
+			(at 168.91 52.0762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 168.91 54.6162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 166.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 166.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64d568b2-3eb2-4cfe-b998-bf18783c2a50")
+		)
+		(pin "2"
+			(uuid "32d55cef-98d6-4ddc-afae-eb14ccbb7acd")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 203.2 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cc6bb42-100f-4cac-9c66-b5fbd4e14494")
+		(property "Reference" "C34"
+			(at 205.74 153.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 205.74 156.2162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 203.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 203.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bbe20d6-8d77-4767-9b66-7e95d7acbf84")
+		)
+		(pin "2"
+			(uuid "7d8ab264-929d-4996-979f-81b5d916d879")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d3efb19-c2ed-4a43-b862-cf197a400994")
+		(property "Reference" "#PWR05"
+			(at 24.13 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.638 58.166 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20a35ccc-4783-4619-bdb5-b88170db8eaf")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 181.61 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1db3f67-a4ed-42a3-842d-20abc22e2de9")
+		(property "Reference" "LED22"
+			(at 194.31 103.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 194.31 106.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 180.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 179.07 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 181.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "65c1479e-6f21-4bab-b0c7-11460c6095e3")
+		)
+		(pin "1"
+			(uuid "286a4652-a6ff-4356-ab5f-ce2a8f8785d7")
+		)
+		(pin "2"
+			(uuid "402cb63c-7404-4449-bca1-a90638ed5a33")
+		)
+		(pin "3"
+			(uuid "af222e4e-f2b0-440d-a18d-672b4ee5f54c")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 144.78 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5b9193f-5fbe-4709-bd65-0edc746def18")
+		(property "Reference" "LED27"
+			(at 157.48 123.1198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 157.48 125.6598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 146.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 147.32 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 144.78 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d67a0d3f-ff6c-4519-9ac4-8f186e02ce6c")
+		)
+		(pin "1"
+			(uuid "3483d6d4-e9b6-4f26-851d-a56bbbd05cbc")
+		)
+		(pin "2"
+			(uuid "71997cce-32f5-48aa-b098-f9a0d5ebb266")
+		)
+		(pin "3"
+			(uuid "cd6f495f-e4b8-4155-861d-75e97dd9e0dd")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 166.37 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aaf98124-499d-4220-aab6-18d2b22415b8")
+		(property "Reference" "C22"
+			(at 168.91 113.0362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 168.91 115.5762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 166.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 166.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a983ad81-c65e-4740-963c-778307f6c523")
+		)
+		(pin "2"
+			(uuid "131ed878-ea93-44a2-9198-f02d8c5a16de")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812")
+		(at 71.12 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af2c94e3-2e20-4bf6-acb9-038dbd5ab20f")
+		(property "Reference" "LED30"
+			(at 81.28 144.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 81.28 146.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_OPSCO_SK6812_PLCC4_5.0x5.0mm_P3.1mm"
+			(at 69.85 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 68.58 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 71.12 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9248357-5da7-417c-a660-ff4620f6dd38")
+		)
+		(pin "3"
+			(uuid "48c99cfa-a30d-4cb6-9c0f-8ab5bd3db722")
+		)
+		(pin "2"
+			(uuid "30249433-3fd1-43fe-a850-5a100bcea5a4")
+		)
+		(pin "4"
+			(uuid "1f78ab79-abe6-4997-94e0-058c62d09892")
+		)
+		(instances
+			(project ""
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 181.61 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1933f3f-1f29-4f5b-bc70-5e9c225115ec")
+		(property "Reference" "LED10"
+			(at 194.31 63.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 194.31 65.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 179.07 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 181.61 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7f808f3c-97ae-469c-8491-b9620d68dc84")
+		)
+		(pin "1"
+			(uuid "2095e234-fcdd-411b-bd30-d584158e7fac")
+		)
+		(pin "2"
+			(uuid "e6383e54-a826-4ec1-a271-00a5bcce8d25")
+		)
+		(pin "3"
+			(uuid "3f72f344-b2c1-43ad-a55e-a622e10247e8")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812")
+		(at 144.78 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5825120-a06c-4c78-b677-17545dae2aa6")
+		(property "Reference" "LED32"
+			(at 154.94 144.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 154.94 146.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_OPSCO_SK6812_PLCC4_5.0x5.0mm_P3.1mm"
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 142.24 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 144.78 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2befbed7-34bc-4988-a44a-7087ae408442")
+		)
+		(pin "3"
+			(uuid "b1e7fba7-5a42-4ef2-8ca0-5ac66e4d689f")
+		)
+		(pin "2"
+			(uuid "a31274c0-872b-4e3e-bd59-407aa6ad59ff")
+		)
+		(pin "4"
+			(uuid "c04829d6-4843-4b02-8650-71e610120c0f")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812")
+		(at 255.27 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8036cb1-c465-4d9a-acb2-fb64d2778b37")
+		(property "Reference" "LED35"
+			(at 265.43 144.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 265.43 146.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_OPSCO_SK6812_PLCC4_5.0x5.0mm_P3.1mm"
+			(at 254 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 252.73 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 255.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbc08a4a-2083-4119-b95f-f08f04358ae3")
+		)
+		(pin "3"
+			(uuid "2ff77444-0b26-478e-aa23-f116b8d5dbfd")
+		)
+		(pin "2"
+			(uuid "d9c1eda1-eb62-4d7d-a897-397b38f3360b")
+		)
+		(pin "4"
+			(uuid "bf0ba15f-0152-4ac5-9474-989505f55d4f")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 59.69 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bce58f31-667b-4168-991f-355075296e87")
+		(property "Reference" "R10"
+			(at 59.69 43.18 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "400"
+			(at 59.69 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 59.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 59.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b581e32f-3015-438a-ae7b-3bd4e1f3523b")
+		)
+		(pin "2"
+			(uuid "b324f92f-7e31-46c8-aa7b-96163f699237")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 240.03 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcf346c3-b942-43ed-88c8-1e36a7a7c8b8")
+		(property "Reference" "C6"
+			(at 242.57 52.0762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 242.57 54.6162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 240.03 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 240.03 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a59d2d79-6b62-47f8-994f-8917f67484f6")
+		)
+		(pin "2"
+			(uuid "1f3f2b71-af02-4ca5-80a7-b68dff139047")
+		)
+		(instances
+			(project ""
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 255.27 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0dd9c07-2f13-46aa-bdbc-ea56afdef353")
+		(property "Reference" "LED24"
+			(at 267.97 103.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 267.97 106.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 254 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 252.73 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 255.27 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "eb6cd2d1-d045-4dd4-9ee8-6bb5a69932f6")
+		)
+		(pin "1"
+			(uuid "628a502e-4403-4d95-89cc-fa148b1696f8")
+		)
+		(pin "2"
+			(uuid "73f73825-cfdc-498a-ba09-bec641ed202d")
+		)
+		(pin "3"
+			(uuid "531ba8b9-c4e8-4ad8-9ee5-226db8480e8b")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 166.37 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2dda860-afa9-4bce-a62c-ece2da34cadd")
+		(property "Reference" "C16"
+			(at 168.91 92.7162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 168.91 95.2562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 166.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 166.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25e24c05-87da-4ed5-b7c6-3f0e123caac3")
+		)
+		(pin "2"
+			(uuid "404352b5-0986-48a2-86d7-6bb98081cda4")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 107.95 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c62309aa-b9fd-48f9-bfa2-6a2d1aa84bb1")
+		(property "Reference" "LED2"
+			(at 120.65 41.8398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 120.65 44.3798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 109.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 110.49 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 107.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a2a9e233-dcf6-421a-8ac4-2b4750dbe817")
+		)
+		(pin "1"
+			(uuid "f9e305da-56f0-4c82-8ed1-e90154f889e7")
+		)
+		(pin "2"
+			(uuid "9f5a95d9-488f-4346-9349-ca70acf2c742")
+		)
+		(pin "3"
+			(uuid "d11e3150-56e6-41e6-b508-33809ce76bff")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd0b457c-6899-4d49-b629-a8974d4f8877")
+		(property "Reference" "C1"
+			(at 58.42 52.0762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 58.42 54.6162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 55.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 55.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62287db5-8aba-439e-a4e7-affb462ff2d8")
+		)
+		(pin "2"
+			(uuid "b71644e3-f2e0-4cb2-b0d1-f5a20434c296")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf27c8eb-eb9d-497f-b72d-d859efaca0c5")
+		(property "Reference" "C13"
+			(at 58.42 92.7162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 58.42 95.2562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 55.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 55.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73a7d4a3-0845-4b67-ba89-3c3b9ff54272")
+		)
+		(pin "2"
+			(uuid "c13fc4fd-168e-4beb-a7d8-e12c8ae0972e")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 144.78 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d025db65-d412-4ebd-b1b1-528a1cf09de5")
+		(property "Reference" "LED15"
+			(at 157.48 82.4798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 157.48 85.0198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 146.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 147.32 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c4f2237a-982c-4209-a6f5-74e089dd2644")
+		)
+		(pin "1"
+			(uuid "8856b282-14f5-4b1a-a169-4b92a459b1a3")
+		)
+		(pin "2"
+			(uuid "8230d321-ca9c-47b6-8d3e-3342eed8e8be")
+		)
+		(pin "3"
+			(uuid "4989a72d-70e6-43aa-b5af-11692a38d451")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Logic_LevelTranslator:SN74LVC1T45DBV")
+		(at 43.18 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d56ef6a5-111b-4079-82e9-0c76cf3384b5")
+		(property "Reference" "U3"
+			(at 29.464 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC1T45DBV"
+			(at 29.464 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 43.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf"
+			(at 20.32 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOT-23-6"
+			(at 43.18 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "4f1f53f1-47ba-48cd-9f18-b06b6c5bc463")
+		)
+		(pin "4"
+			(uuid "cec9782d-e85a-4acb-8ce8-40c35fe7c2f0")
+		)
+		(pin "2"
+			(uuid "71807f6c-f971-4f0b-9854-53b10b7030f3")
+		)
+		(pin "5"
+			(uuid "3d410ba6-9ecf-4488-8138-5dc40731cc14")
+		)
+		(pin "1"
+			(uuid "e6309444-b440-48fb-b314-70dafbab5963")
+		)
+		(pin "3"
+			(uuid "fdfe39f2-3be3-429a-9604-8d559032c1e2")
+		)
+		(instances
+			(project ""
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 218.44 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df6e2983-9f20-4075-a07d-593ad3a6059e")
+		(property "Reference" "LED17"
+			(at 231.14 82.4798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 231.14 85.0198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 219.71 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 220.98 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 218.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "58af399b-c46e-4c48-a456-43a0df7a7daf")
+		)
+		(pin "1"
+			(uuid "1d580c68-ce65-4b4f-acad-220e40f55eb5")
+		)
+		(pin "2"
+			(uuid "f9541b42-a69a-4aad-9962-3679a193a905")
+		)
+		(pin "3"
+			(uuid "0c8e3a25-7063-469b-9648-0c58494a9fe0")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 218.44 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e58a2443-1325-4124-a3e8-0452061f6117")
+		(property "Reference" "LED5"
+			(at 231.14 41.8398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 231.14 44.3798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 219.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 220.98 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 218.44 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "43792fe8-8296-4f29-ac69-0ccac9be1a7a")
+		)
+		(pin "1"
+			(uuid "f8b452a3-9327-4f7c-b681-34bd37c39a2e")
+		)
+		(pin "2"
+			(uuid "1283e865-7c88-4348-b8d4-bbeda4d6f71c")
+		)
+		(pin "3"
+			(uuid "61321d9d-4a11-452f-8370-ac1fd30d1f2e")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 129.54 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec16fe4a-35a8-474d-acbe-8a87751b25a4")
+		(property "Reference" "C3"
+			(at 132.08 52.0762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 132.08 54.6162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 129.54 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 129.54 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19095fa2-3125-4aec-b143-605852277edb")
+		)
+		(pin "2"
+			(uuid "543a33b1-6b0e-40d2-b29e-511bf90a4ce6")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 255.27 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed558f5d-df6c-4039-a27d-2edf046e1b63")
+		(property "Reference" "LED6"
+			(at 267.97 41.8398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 267.97 44.3798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 256.54 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 257.81 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 255.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1f80bf47-9401-4724-8898-acb8b88ba8eb")
+		)
+		(pin "1"
+			(uuid "ddb34365-7c8d-416e-9807-f7e8ed9ee3ef")
+		)
+		(pin "2"
+			(uuid "f0b640a1-3d53-42ed-a825-a707e6c35f5b")
+		)
+		(pin "3"
+			(uuid "ad4cea65-4ff1-4863-bfd0-d8c5526c7f79")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 166.37 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f09b5752-2133-4aa5-bac4-889731fba1af")
+		(property "Reference" "C10"
+			(at 168.91 72.3962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 168.91 74.9362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 166.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 166.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44e7ae19-7e6a-4058-a65b-6cc9977e7f3b")
+		)
+		(pin "2"
+			(uuid "95ab84dd-d942-40c8-adb8-429669f3db8c")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 129.54 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faefdd51-1861-42d5-8947-020096d0bafb")
+		(property "Reference" "C32"
+			(at 132.08 153.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 132.08 156.2162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 129.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 129.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d21e62d-0f98-4420-968c-3aab0a72645d")
+		)
+		(pin "2"
+			(uuid "0b66cac1-aa85-41ad-86fc-d473e4922cf4")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 71.12 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd0b7e7f-aa32-40b6-be39-dbfe79b6da61")
+		(property "Reference" "LED7"
+			(at 83.82 63.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 83.82 65.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 69.85 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 68.58 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 71.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "25d12b9b-b892-430c-a8a0-6445780f2ded")
+		)
+		(pin "1"
+			(uuid "b68ea434-49f1-4572-9780-a4fd38808e9d")
+		)
+		(pin "2"
+			(uuid "19427ff1-aaa5-40c2-a609-904901a35538")
+		)
+		(pin "3"
+			(uuid "f55d90d7-ae25-4c01-9e5b-4f48a56da964")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 107.95 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe29d53c-6096-4f3d-90f8-48d31ac62eba")
+		(property "Reference" "LED26"
+			(at 120.65 123.1198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 120.65 125.6598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 109.22 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 110.49 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 107.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "92c7ed80-2bf4-4c76-a129-176638276597")
+		)
+		(pin "1"
+			(uuid "369e4c8f-6248-4f21-8e41-4bdb4d0819bc")
+		)
+		(pin "2"
+			(uuid "2231bc06-d038-4810-885e-99040d9015bc")
+		)
+		(pin "3"
+			(uuid "4c643de3-776a-4096-bc52-64bd2ee5862d")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 107.95 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe755f17-70b4-48ca-926f-87c6b5aa4257")
+		(property "Reference" "LED14"
+			(at 120.65 82.4798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 120.65 85.0198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts.pretty-master:SK6812-MINI-E"
+			(at 109.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 110.49 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 107.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "093f584e-f371-403f-8e52-7ed076847f69")
+		)
+		(pin "1"
+			(uuid "b7ce6afb-31da-4b9a-bd1c-26b4bd6869d0")
+		)
+		(pin "2"
+			(uuid "0b353297-3529-426f-b97b-74442467b335")
+		)
+		(pin "3"
+			(uuid "31a7dbef-12c8-47dc-af12-bc5008dcf1ee")
+		)
+		(instances
+			(project "main-pcb"
+				(path "/0040c647-88af-47fb-b160-a5636bcd1622/dd19406d-4a54-45eb-8fa6-cd12cd297dbe"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

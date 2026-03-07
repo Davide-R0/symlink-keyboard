@@ -1,0 +1,71 @@
+/* my_shield_right.overlay */
+#include "my_shield.dtsi" /* Importa il matrix_transform che abbiamo appena scritto */
+
+/ {
+    chosen {
+        zmk,kscan = &kscan0;
+        zmk,matrix-transform = &default_transform; /* <--- ECCOLO! */
+    };
+};
+
+#include <dt-bindings/zmk/matrix_transform.h> //????
+
+/* 1. Definiamo quali pin fisici del nice!nano fanno da SDA e SCL */
+&pinctrl {
+    i2c0_default: i2c0_default {
+        group1 {
+            /* Sul Pro Micro, P0.17 è D2 (SDA) e P0.20 è D3 (SCL) */
+            psels = <NRF_PSEL(TWIM_SDA, 0, 17)>,
+                    <NRF_PSEL(TWIM_SCL, 0, 20)>;
+            /* Aggiungiamo le resistenze di pull-up interne per sicurezza, 
+               anche se hai quelle esterne da 4.7k nelle tue specifiche */
+            bias-pull-up; 
+        };
+    };
+    i2c0_sleep: i2c0_sleep {
+        group1 {
+            psels = <NRF_PSEL(TWIM_SDA, 0, 17)>,
+                    <NRF_PSEL(TWIM_SCL, 0, 20)>;
+            low-power-enable;
+        };
+    };
+};
+
+/* 2. Attiviamo il bus I2C e "appendiamo" i dispositivi */
+&i2c0 {
+    status = "okay";
+    compatible = "nordic,nrf-twim";
+    pinctrl-0 = <&i2c0_default>;
+    pinctrl-1 = <&i2c0_sleep>;
+    pinctrl-names = "default", "sleep";
+    clock-frequency = <I2C_BITRATE_FAST>; /* 400kHz */
+
+    /* A. Lo schermo OLED */
+    oled: ssd1306@3c {
+        compatible = "solomon,ssd1306fb";
+        reg = <0x3c>;
+        width = <128>;
+        height = <32>;
+        segment-offset = <0>;
+        page-offset = <0>;
+        display-offset = <0>;
+        multiplex-ratio = <31>;
+        segment-remap;
+        com-invdir;
+        com-sequential;
+        prechargep = <0x22>;
+    };
+
+    /* B. Il tuo I/O Expander custom */
+    my_pca9536: pca9536@41 {
+        compatible = "custom,pca9536";
+        reg = <0x41>;
+    };
+
+    /* C. (Opzionale) Il sensore nativo del Cirque se scrivi un driver per lui */
+    trackpad: cirque@2a {
+        compatible = "cirque,pinnacle";
+        reg = <0x2a>;
+        status = "okay";
+    };
+};

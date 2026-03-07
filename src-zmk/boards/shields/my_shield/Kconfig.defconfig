@@ -1,0 +1,31 @@
+# src-zmk/boards/shields/my_shield/Kconfig.defconfig
+
+# --- IMPOSTAZIONI LATO SINISTRO (MASTER) ---
+if SHIELD_MY_SHIELD_LEFT
+
+# Diamo un nome Bluetooth personalizzato alla tastiera
+config ZMK_KEYBOARD_NAME
+    default "My Custom Split"
+
+# Accendiamo l'encoder rotativo di default solo a sinistra
+config EC11
+    default y
+
+config EC11_TRIGGER_GLOBAL_THREAD
+    default y
+
+endif # SHIELD_MY_SHIELD_LEFT
+
+
+# --- IMPOSTAZIONI LATO DESTRO (SLAVE) ---
+if SHIELD_MY_SHIELD_RIGHT
+
+# Il lato destro non trasmette il nome via BLE al PC, ma è buona norma impostarlo
+config ZMK_KEYBOARD_NAME
+    default "My Custom Split Right"
+
+# In futuro qui potresti mettere il default a 'y' per il tuo driver I2C custom
+# config CUSTOM_CIRQUE_TRACKPAD
+#     default y
+
+endif # SHIELD_MY_SHIELD_RIGHT

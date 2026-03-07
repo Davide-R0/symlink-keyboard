@@ -1,0 +1,20 @@
+# Justfile
+
+default:
+    @just --list
+
+
+serve:
+    @echo "Live reloading..."
+    livereload .
+
+#serve-stop:
+#    @echo "Stopping serving ocp_vscode..."
+#    -pkill -f "ocp_vscode"
+#    -fuser -k 3939/tcp
+
+watch-main:
+    ls test.py | entr python3 test.py # -s ??
+
+search-part:
+    skidl-part-search --interactive

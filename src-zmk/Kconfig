@@ -1,0 +1,12 @@
+# Kconfig
+
+# Carica le configurazioni di default di Zephyr/ZMK
+rsource "zephyr/Kconfig"
+
+# Si può abilitare questo modulo con CONFIG_CUSTOM_CIRQUE_TRACKPAD=y nel file .conf della shield
+config CUSTOM_CIRQUE_TRACKPAD
+    bool "Enable Custom Cirque Trackpad Driver via PCA9536D"
+    default n
+    help
+      Abilita il driver custom in C per il modulo touchpad Cirque
+      collegato tramite l'IO expander PCA9536D I2C.

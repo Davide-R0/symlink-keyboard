@@ -1,0 +1,7 @@
+# src-zmk/boards/shields/my_shield/Kconfig.shield
+
+config SHIELD_MY_SHIELD_LEFT
+    def_bool $(shields_list_contains,my_shield_left)
+
+config SHIELD_MY_SHIELD_RIGHT
+    def_bool $(shields_list_contains,my_shield_right)
